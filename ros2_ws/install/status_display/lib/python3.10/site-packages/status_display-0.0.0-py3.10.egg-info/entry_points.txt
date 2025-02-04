@@ -1,0 +1,3 @@
+[console_scripts]
+status_display = status_display.status_display:main
+

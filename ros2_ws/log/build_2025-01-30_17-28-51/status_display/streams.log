@@ -1,0 +1,31 @@
+[1.416s] Invoking command in '/home/matthew/ros2_ws/build/status_display': AMENT_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/status_display_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/ros2_ws/build/status_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages:/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/matthew/ros2_ws/build/status_display/build
+[1.993s] running develop
+[2.359s] Removing /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status-display.egg-link (link to .)
+[2.445s] Invoked command in '/home/matthew/ros2_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/status_display_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/ros2_ws/build/status_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages:/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/matthew/ros2_ws/build/status_display/build
+[2.450s] Invoking command in '/home/matthew/ros2_ws/src/status_display': AMENT_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/status_display_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/ros2_ws/build/status_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages:/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_display build --build-base /home/matthew/ros2_ws/build/status_display/build install --record /home/matthew/ros2_ws/build/status_display/install.log --single-version-externally-managed install_data --force
+[2.982s] running egg_info
+[2.983s] writing ../../build/status_display/status_display.egg-info/PKG-INFO
+[2.984s] writing dependency_links to ../../build/status_display/status_display.egg-info/dependency_links.txt
+[2.984s] writing entry points to ../../build/status_display/status_display.egg-info/entry_points.txt
+[2.985s] writing requirements to ../../build/status_display/status_display.egg-info/requires.txt
+[2.985s] writing top-level names to ../../build/status_display/status_display.egg-info/top_level.txt
+[2.989s] reading manifest file '../../build/status_display/status_display.egg-info/SOURCES.txt'
+[2.991s] writing manifest file '../../build/status_display/status_display.egg-info/SOURCES.txt'
+[2.991s] running build
+[2.991s] running build_py
+[2.992s] running install
+[2.993s] running install_lib
+[2.997s] creating /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display
+[2.997s] copying /home/matthew/ros2_ws/build/status_display/build/lib/status_display/status_display.py -> /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display
+[2.998s] copying /home/matthew/ros2_ws/build/status_display/build/lib/status_display/__init__.py -> /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display
+[2.999s] byte-compiling /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display/status_display.py to status_display.cpython-310.pyc
+[3.001s] byte-compiling /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display/__init__.py to __init__.cpython-310.pyc
+[3.001s] running install_data
+[3.001s] copying resource/status_display -> /home/matthew/ros2_ws/install/status_display/share/ament_index/resource_index/packages
+[3.002s] copying package.xml -> /home/matthew/ros2_ws/install/status_display/share/status_display
+[3.002s] running install_egg_info
+[3.006s] Copying ../../build/status_display/status_display.egg-info to /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display-0.0.0-py3.10.egg-info
+[3.008s] running install_scripts
+[3.051s] Installing status_display script to /home/matthew/ros2_ws/install/status_display/lib/status_display
+[3.052s] writing list of installed files to '/home/matthew/ros2_ws/build/status_display/install.log'
+[3.129s] Invoked command in '/home/matthew/ros2_ws/src/status_display' returned '0': AMENT_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/status_display_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/ros2_ws/build/status_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages:/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_display build --build-base /home/matthew/ros2_ws/build/status_display/build install --record /home/matthew/ros2_ws/build/status_display/install.log --single-version-externally-managed install_data --force

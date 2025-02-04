@@ -1,0 +1,31 @@
+running develop
+Removing /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol.egg-link (link to .)
+running egg_info
+writing ../../build/motorcontrol/motorcontrol.egg-info/PKG-INFO
+writing dependency_links to ../../build/motorcontrol/motorcontrol.egg-info/dependency_links.txt
+writing entry points to ../../build/motorcontrol/motorcontrol.egg-info/entry_points.txt
+writing requirements to ../../build/motorcontrol/motorcontrol.egg-info/requires.txt
+writing top-level names to ../../build/motorcontrol/motorcontrol.egg-info/top_level.txt
+reading manifest file '../../build/motorcontrol/motorcontrol.egg-info/SOURCES.txt'
+writing manifest file '../../build/motorcontrol/motorcontrol.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/matthew/ros2_ws/build/motorcontrol/build
+creating /home/matthew/ros2_ws/build/motorcontrol/build/lib
+creating /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol
+copying motorcontrol/__init__.py -> /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol
+copying motorcontrol/mc.py -> /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol
+running install
+running install_lib
+creating /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol
+copying /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol/__init__.py -> /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol
+copying /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol/mc.py -> /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol
+byte-compiling /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol/mc.py to mc.cpython-310.pyc
+running install_data
+copying resource/motorcontrol -> /home/matthew/ros2_ws/install/motorcontrol/share/ament_index/resource_index/packages
+copying package.xml -> /home/matthew/ros2_ws/install/motorcontrol/share/motorcontrol
+running install_egg_info
+Copying ../../build/motorcontrol/motorcontrol.egg-info to /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/matthew/ros2_ws/build/motorcontrol/install.log'

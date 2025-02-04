@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from status_display_msgs/msg/StatusDisplay.msg
+// generated code does not contain a copyright notice
+
+
+module status_display_msgs {
+  module msg {
+    struct StatusDisplay {
+      double left_setpoint;
+
+      double left_velocity;
+
+      double left_output;
+
+      double right_setpoint;
+
+      double right_velocity;
+
+      double right_output;
+    };
+  };
+};

@@ -1,0 +1,24 @@
+[1.340s] Invoking command in '/home/matthew/ros2_ws/build/status_display': AMENT_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/status_display_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/ros2_ws/build/status_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages:/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matthew/ros2_ws/build/status_display/build --no-deps symlink_data
+[1.878s] running develop
+[2.229s] running egg_info
+[2.230s] creating status_display.egg-info
+[2.230s] writing status_display.egg-info/PKG-INFO
+[2.230s] writing dependency_links to status_display.egg-info/dependency_links.txt
+[2.231s] writing entry points to status_display.egg-info/entry_points.txt
+[2.231s] writing requirements to status_display.egg-info/requires.txt
+[2.231s] writing top-level names to status_display.egg-info/top_level.txt
+[2.232s] writing manifest file 'status_display.egg-info/SOURCES.txt'
+[2.235s] reading manifest file 'status_display.egg-info/SOURCES.txt'
+[2.236s] writing manifest file 'status_display.egg-info/SOURCES.txt'
+[2.239s] running build_ext
+[2.239s] Creating /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status-display.egg-link (link to .)
+[2.241s] Installing status_display script to /home/matthew/ros2_ws/install/status_display/lib/status_display
+[2.242s] 
+[2.242s] Installed /home/matthew/ros2_ws/build/status_display
+[2.242s] running symlink_data
+[2.242s] creating /home/matthew/ros2_ws/install/status_display/share/ament_index
+[2.243s] creating /home/matthew/ros2_ws/install/status_display/share/ament_index/resource_index
+[2.243s] creating /home/matthew/ros2_ws/install/status_display/share/ament_index/resource_index/packages
+[2.243s] symbolically linking /home/matthew/ros2_ws/build/status_display/resource/status_display -> /home/matthew/ros2_ws/install/status_display/share/ament_index/resource_index/packages
+[2.243s] symbolically linking /home/matthew/ros2_ws/build/status_display/package.xml -> /home/matthew/ros2_ws/install/status_display/share/status_display
+[2.321s] Invoked command in '/home/matthew/ros2_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/status_display_msgs LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/status_display_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/ros2_ws/build/status_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages:/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matthew/ros2_ws/build/status_display/build --no-deps symlink_data

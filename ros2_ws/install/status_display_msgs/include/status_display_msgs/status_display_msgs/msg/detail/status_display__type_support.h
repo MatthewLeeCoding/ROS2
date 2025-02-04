@@ -1,0 +1,1 @@
+/home/matthew/ros2_ws/build/status_display_msgs/rosidl_generator_c/status_display_msgs/msg/detail/status_display__type_support.h

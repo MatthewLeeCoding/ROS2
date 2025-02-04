@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ff89b4ee116cab9ab64f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_laser_scan_matcher",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_scan_matcher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_scan_matcher-667c41fce319ec2571ce.json",
+					"name" : "laser_scan_matcher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_laser_scan_matcher_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_laser_scan_matcher_uninstall-b39e7ecce26ebb4b143b.json",
+					"name" : "ros2_laser_scan_matcher_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6161f298d38d0426430f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/matthew/ros2_ws/build/ros2_laser_scan_matcher",
+		"source" : "/home/matthew/ros2_ws/src/ros2_laser_scan_matcher"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

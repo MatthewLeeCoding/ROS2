@@ -1,0 +1,153 @@
+[0.010s] Invoking command in '/home/matthew/ros2_ws/build/status_display_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/status_display_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/status_display_msgs
+[1.177s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.177s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.178s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.178s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[1.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.179s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[1.180s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.236s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[2.284s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.284s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.285s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.318s] -- Added test 'lint_cmake' to check CMake code style
+[2.320s] -- Added test 'xmllint' to check XML markup files
+[2.329s] -- Configuring done
+[2.399s] -- Generating done
+[2.423s] -- Build files have been written to: /home/matthew/ros2_ws/build/status_display_msgs
+[2.443s] Invoked command in '/home/matthew/ros2_ws/build/status_display_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/status_display_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/status_display_msgs
+[2.446s] Invoking command in '/home/matthew/ros2_ws/build/status_display_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/build/status_display_msgs -- -j6 -l6
+[2.539s] [  2%] Built target status_display_msgs__rosidl_generator_type_description
+[2.558s] [  2%] Built target ament_cmake_python_symlink_status_display_msgs
+[2.570s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_generator_c[0m
+[2.575s] [  5%] Built target status_display_msgs__cpp
+[2.594s] [ 20%] Built target status_display_msgs__rosidl_generator_c
+[2.615s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_introspection_c[0m
+[2.615s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.634s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_c[0m
+[2.638s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_cpp[0m
+[2.644s] [ 29%] Built target status_display_msgs__rosidl_typesupport_introspection_c
+[2.652s] [ 38%] Built target status_display_msgs__rosidl_typesupport_fastrtps_c
+[2.659s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.677s] [ 47%] Built target status_display_msgs__rosidl_typesupport_c
+[2.689s] [ 55%] Built target status_display_msgs__rosidl_typesupport_cpp
+[2.702s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.713s] [ 64%] Built target status_display_msgs__rosidl_typesupport_fastrtps_cpp
+[2.732s] [ 73%] Built target status_display_msgs__rosidl_typesupport_introspection_cpp
+[2.778s] [ 73%] Built target status_display_msgs
+[2.821s] [ 76%] Built target status_display_msgs__py
+[2.846s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_generator_py[0m
+[2.875s] [ 82%] Built target status_display_msgs__rosidl_generator_py
+[2.896s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.897s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.918s] [35m[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_c__pyext[0m
+[2.938s] [ 88%] Built target status_display_msgs__rosidl_typesupport_introspection_c__pyext
+[2.953s] [ 94%] Built target status_display_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.953s] [100%] Built target status_display_msgs__rosidl_typesupport_c__pyext
+[3.178s] running egg_info
+[3.179s] writing status_display_msgs.egg-info/PKG-INFO
+[3.180s] writing dependency_links to status_display_msgs.egg-info/dependency_links.txt
+[3.180s] writing top-level names to status_display_msgs.egg-info/top_level.txt
+[3.185s] reading manifest file 'status_display_msgs.egg-info/SOURCES.txt'
+[3.187s] writing manifest file 'status_display_msgs.egg-info/SOURCES.txt'
+[3.256s] [100%] Built target ament_cmake_python_build_status_display_msgs_egg
+[3.279s] Invoked command in '/home/matthew/ros2_ws/build/status_display_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/build/status_display_msgs -- -j6 -l6
+[3.283s] Invoking command in '/home/matthew/ros2_ws/build/status_display_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/ros2_ws/build/status_display_msgs
+[3.297s] -- Install configuration: ""
+[3.299s] -- Execute custom install script
+[3.299s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/ament_index/resource_index/rosidl_interfaces/status_display_msgs
+[3.300s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/msg/StatusDisplay.json
+[3.300s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__functions.h
+[3.300s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__struct.h
+[3.300s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__type_support.h
+[3.301s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.301s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/status_display.h
+[3.301s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/environment/library_path.sh
+[3.302s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/environment/library_path.dsv
+[3.302s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__rosidl_typesupport_fastrtps_c.h
+[3.302s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.303s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__rosidl_typesupport_introspection_c.h
+[3.303s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.303s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__builder.hpp
+[3.304s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__struct.hpp
+[3.304s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__traits.hpp
+[3.304s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/status_display.hpp
+[3.305s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__rosidl_typesupport_fastrtps_cpp.hpp
+[3.305s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.306s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__rosidl_typesupport_introspection_cpp.hpp
+[3.306s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/environment/pythonpath.sh
+[3.307s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/environment/pythonpath.dsv
+[3.307s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.308s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.308s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.308s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.309s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/__init__.py
+[3.309s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/_status_display_msgs_s.ep.rosidl_typesupport_c.c
+[3.310s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/_status_display_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.310s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/_status_display_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.310s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/libstatus_display_msgs__rosidl_generator_py.so
+[3.310s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg/__init__.py
+[3.311s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg/_status_display.py
+[3.311s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg/_status_display_s.c
+[3.311s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.312s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.312s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.312s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.313s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.313s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.313s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/msg/StatusDisplay.idl
+[3.313s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/msg/StatusDisplay.msg
+[3.314s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/ament_index/resource_index/package_run_dependencies/status_display_msgs
+[3.314s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/ament_index/resource_index/parent_prefix_path/status_display_msgs
+[3.314s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/environment/ament_prefix_path.sh
+[3.314s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/environment/ament_prefix_path.dsv
+[3.315s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/environment/path.sh
+[3.315s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/environment/path.dsv
+[3.315s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/local_setup.bash
+[3.316s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/local_setup.sh
+[3.316s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/local_setup.zsh
+[3.316s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/local_setup.dsv
+[3.316s] -- Symlinking: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/package.dsv
+[3.336s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/ament_index/resource_index/packages/status_display_msgs
+[3.337s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/rosidl_cmake-extras.cmake
+[3.337s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.337s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.338s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.339s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgsConfig.cmake
+[3.341s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgsConfig-version.cmake
+[3.341s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/package.xml
+[3.341s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_generator_c.so
+[3.341s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_fastrtps_c.so
+[3.342s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_introspection_c.so
+[3.342s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_c.so
+[3.342s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.342s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_introspection_cpp.so
+[3.342s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_cpp.so
+[3.417s] Listing '/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs'...
+[3.418s] Compiling '/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/__init__.py'...
+[3.418s] Listing '/home/matthew/ros2_ws/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg'...
+[3.432s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_generator_py.so
+[3.432s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_cExport.cmake
+[3.432s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.433s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.433s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.433s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.433s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.434s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_cExport.cmake
+[3.434s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.434s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_cppExport.cmake
+[3.434s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.434s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.435s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.435s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.435s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_cppExport.cmake
+[3.435s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.435s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_pyExport.cmake
+[3.435s] -- Up-to-date: /home/matthew/ros2_ws/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.442s] Invoked command in '/home/matthew/ros2_ws/build/status_display_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/ros2_ws/build/status_display_msgs

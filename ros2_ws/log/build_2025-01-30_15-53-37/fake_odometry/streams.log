@@ -1,0 +1,65 @@
+[0.055s] Invoking command in '/home/matthew/ros2_ws/build/fake_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/fake_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/fake_odometry
+[1.292s] -- The C compiler identification is GNU 11.4.0
+[1.292s] -- The CXX compiler identification is GNU 11.4.0
+[1.292s] -- Detecting C compiler ABI info
+[1.292s] -- Detecting C compiler ABI info - done
+[1.293s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.293s] -- Detecting C compile features
+[1.293s] -- Detecting C compile features - done
+[1.293s] -- Detecting CXX compiler ABI info
+[1.293s] -- Detecting CXX compiler ABI info - done
+[1.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.293s] -- Detecting CXX compile features
+[1.294s] -- Detecting CXX compile features - done
+[1.294s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.294s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.344s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.441s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.471s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.895s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.901s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.122s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.181s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.277s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.619s] -- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+[4.141s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[4.524s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.860s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.861s] -- Configured cppcheck include dirs: 
+[4.861s] -- Configured cppcheck exclude dirs and/or files: 
+[4.864s] -- Added test 'lint_cmake' to check CMake code style
+[4.867s] -- Added test 'uncrustify' to check C / C++ code style
+[4.867s] -- Configured uncrustify additional arguments: 
+[4.870s] -- Added test 'xmllint' to check XML markup files
+[4.874s] -- Configuring done
+[4.908s] -- Generating done
+[4.924s] -- Build files have been written to: /home/matthew/ros2_ws/build/fake_odometry
+[4.976s] Invoked command in '/home/matthew/ros2_ws/build/fake_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/fake_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/fake_odometry
+[4.977s] Invoking command in '/home/matthew/ros2_ws/build/fake_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/build/fake_odometry -- -j6 -l6
+[5.309s] [ 50%] [32mBuilding CXX object CMakeFiles/fake_odometry_publisher.dir/src/fake_odometry_publisher.cpp.o[0m
+[19.942s] [100%] [32m[1mLinking CXX executable fake_odometry_publisher[0m
+[20.421s] [100%] Built target fake_odometry_publisher
+[20.445s] Invoked command in '/home/matthew/ros2_ws/build/fake_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/build/fake_odometry -- -j6 -l6
+[20.450s] Invoking command in '/home/matthew/ros2_ws/build/fake_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake --install /home/matthew/ros2_ws/build/fake_odometry
+[20.466s] -- Install configuration: ""
+[20.467s] -- Execute custom install script
+[20.467s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/lib/fake_odometry/fake_odometry_publisher
+[20.487s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/ament_index/resource_index/package_run_dependencies/fake_odometry
+[20.504s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/ament_index/resource_index/parent_prefix_path/fake_odometry
+[20.522s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/environment/ament_prefix_path.sh
+[20.539s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/environment/ament_prefix_path.dsv
+[20.557s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/environment/path.sh
+[20.575s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/environment/path.dsv
+[20.592s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/local_setup.bash
+[20.609s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/local_setup.sh
+[20.626s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/local_setup.zsh
+[20.643s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/local_setup.dsv
+[20.661s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/package.dsv
+[20.680s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/ament_index/resource_index/packages/fake_odometry
+[20.697s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/cmake/fake_odometryConfig.cmake
+[20.714s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/cmake/fake_odometryConfig-version.cmake
+[20.731s] -- Symlinking: /home/matthew/ros2_ws/install/fake_odometry/share/fake_odometry/package.xml
+[20.754s] Invoked command in '/home/matthew/ros2_ws/build/fake_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake --install /home/matthew/ros2_ws/build/fake_odometry

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating gazebo_robot_package.egg-info
+writing gazebo_robot_package.egg-info/PKG-INFO
+writing dependency_links to gazebo_robot_package.egg-info/dependency_links.txt
+writing entry points to gazebo_robot_package.egg-info/entry_points.txt
+writing requirements to gazebo_robot_package.egg-info/requires.txt
+writing top-level names to gazebo_robot_package.egg-info/top_level.txt
+writing manifest file 'gazebo_robot_package.egg-info/SOURCES.txt'
+reading manifest file 'gazebo_robot_package.egg-info/SOURCES.txt'
+writing manifest file 'gazebo_robot_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/matthew/ros2_ws/src/install/gazebo_robot_package/lib/python3.10/site-packages/gazebo-robot-package.egg-link (link to .)
+
+Installed /home/matthew/ros2_ws/src/build/gazebo_robot_package
+running symlink_data
+creating /home/matthew/ros2_ws/src/install/gazebo_robot_package/share/ament_index
+creating /home/matthew/ros2_ws/src/install/gazebo_robot_package/share/ament_index/resource_index
+creating /home/matthew/ros2_ws/src/install/gazebo_robot_package/share/ament_index/resource_index/packages
+symbolically linking /home/matthew/ros2_ws/src/build/gazebo_robot_package/resource/gazebo_robot_package -> /home/matthew/ros2_ws/src/install/gazebo_robot_package/share/ament_index/resource_index/packages
+symbolically linking /home/matthew/ros2_ws/src/build/gazebo_robot_package/package.xml -> /home/matthew/ros2_ws/src/install/gazebo_robot_package/share/gazebo_robot_package

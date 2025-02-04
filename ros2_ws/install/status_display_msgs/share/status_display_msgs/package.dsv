@@ -1,0 +1,14 @@
+source;share/status_display_msgs/hook/cmake_prefix_path.ps1
+source;share/status_display_msgs/hook/cmake_prefix_path.dsv
+source;share/status_display_msgs/hook/cmake_prefix_path.sh
+source;share/status_display_msgs/hook/ld_library_path_lib.ps1
+source;share/status_display_msgs/hook/ld_library_path_lib.dsv
+source;share/status_display_msgs/hook/ld_library_path_lib.sh
+source;share/status_display_msgs/hook/pythonpath.ps1
+source;share/status_display_msgs/hook/pythonpath.dsv
+source;share/status_display_msgs/hook/pythonpath.sh
+source;share/status_display_msgs/local_setup.bash
+source;share/status_display_msgs/local_setup.dsv
+source;share/status_display_msgs/local_setup.ps1
+source;share/status_display_msgs/local_setup.sh
+source;share/status_display_msgs/local_setup.zsh

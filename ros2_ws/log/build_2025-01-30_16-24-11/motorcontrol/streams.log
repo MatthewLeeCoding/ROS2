@@ -1,0 +1,35 @@
+[1.996s] Invoking command in '/home/matthew/ros2_ws/build/motorcontrol': PYTHONPATH=/home/matthew/ros2_ws/build/motorcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/matthew/ros2_ws/build/motorcontrol/build
+[2.567s] running develop
+[2.953s] Removing /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol.egg-link (link to .)
+[3.034s] Invoked command in '/home/matthew/ros2_ws/build/motorcontrol' returned '0': PYTHONPATH=/home/matthew/ros2_ws/build/motorcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/matthew/ros2_ws/build/motorcontrol/build
+[3.038s] Invoking command in '/home/matthew/ros2_ws/src/motorcontrol': PYTHONPATH=/home/matthew/ros2_ws/build/motorcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motorcontrol build --build-base /home/matthew/ros2_ws/build/motorcontrol/build install --record /home/matthew/ros2_ws/build/motorcontrol/install.log --single-version-externally-managed install_data --force
+[3.569s] running egg_info
+[3.571s] writing ../../build/motorcontrol/motorcontrol.egg-info/PKG-INFO
+[3.571s] writing dependency_links to ../../build/motorcontrol/motorcontrol.egg-info/dependency_links.txt
+[3.572s] writing entry points to ../../build/motorcontrol/motorcontrol.egg-info/entry_points.txt
+[3.572s] writing requirements to ../../build/motorcontrol/motorcontrol.egg-info/requires.txt
+[3.572s] writing top-level names to ../../build/motorcontrol/motorcontrol.egg-info/top_level.txt
+[3.577s] reading manifest file '../../build/motorcontrol/motorcontrol.egg-info/SOURCES.txt'
+[3.578s] writing manifest file '../../build/motorcontrol/motorcontrol.egg-info/SOURCES.txt'
+[3.579s] running build
+[3.579s] running build_py
+[3.580s] creating /home/matthew/ros2_ws/build/motorcontrol/build
+[3.580s] creating /home/matthew/ros2_ws/build/motorcontrol/build/lib
+[3.580s] creating /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol
+[3.580s] copying motorcontrol/__init__.py -> /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol
+[3.581s] copying motorcontrol/mc.py -> /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol
+[3.581s] running install
+[3.582s] running install_lib
+[3.583s] creating /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol
+[3.584s] copying /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol/__init__.py -> /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol
+[3.584s] copying /home/matthew/ros2_ws/build/motorcontrol/build/lib/motorcontrol/mc.py -> /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol
+[3.585s] byte-compiling /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol/__init__.py to __init__.cpython-310.pyc
+[3.586s] byte-compiling /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol/mc.py to mc.cpython-310.pyc
+[3.589s] running install_data
+[3.589s] copying resource/motorcontrol -> /home/matthew/ros2_ws/install/motorcontrol/share/ament_index/resource_index/packages
+[3.589s] copying package.xml -> /home/matthew/ros2_ws/install/motorcontrol/share/motorcontrol
+[3.589s] running install_egg_info
+[3.593s] Copying ../../build/motorcontrol/motorcontrol.egg-info to /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol-0.0.0-py3.10.egg-info
+[3.595s] running install_scripts
+[3.638s] writing list of installed files to '/home/matthew/ros2_ws/build/motorcontrol/install.log'
+[4.090s] Invoked command in '/home/matthew/ros2_ws/src/motorcontrol' returned '0': PYTHONPATH=/home/matthew/ros2_ws/build/motorcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motorcontrol build --build-base /home/matthew/ros2_ws/build/motorcontrol/build install --record /home/matthew/ros2_ws/build/motorcontrol/install.log --single-version-externally-managed install_data --force

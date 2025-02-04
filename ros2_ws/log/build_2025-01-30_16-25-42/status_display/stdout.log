@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing status_display.egg-info/PKG-INFO
+writing dependency_links to status_display.egg-info/dependency_links.txt
+writing entry points to status_display.egg-info/entry_points.txt
+writing requirements to status_display.egg-info/requires.txt
+writing top-level names to status_display.egg-info/top_level.txt
+reading manifest file 'status_display.egg-info/SOURCES.txt'
+writing manifest file 'status_display.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status-display.egg-link (link to .)
+Installing status_display script to /home/matthew/ros2_ws/install/status_display/lib/status_display
+
+Installed /home/matthew/ros2_ws/build/status_display
+running symlink_data
+symbolically linking /home/matthew/ros2_ws/build/status_display/resource/status_display -> /home/matthew/ros2_ws/install/status_display/share/ament_index/resource_index/packages
+symbolically linking /home/matthew/ros2_ws/build/status_display/package.xml -> /home/matthew/ros2_ws/install/status_display/share/status_display

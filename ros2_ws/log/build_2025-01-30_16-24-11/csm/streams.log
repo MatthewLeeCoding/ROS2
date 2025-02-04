@@ -1,0 +1,52 @@
+[0.059s] Invoking command in '/home/matthew/ros2_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/csm -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/csm
+[1.235s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.235s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.236s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.236s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.237s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.239s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.239s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.239s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.612s] -- Configuring done
+[1.627s] -- Generating done
+[1.634s] -- Build files have been written to: /home/matthew/ros2_ws/build/csm
+[1.657s] Invoked command in '/home/matthew/ros2_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/csm -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/csm
+[1.658s] Invoking command in '/home/matthew/ros2_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/build/csm -- -j6 -l6
+[1.749s] [35m[1mConsolidate compiler generated dependencies of target csm[0m
+[1.824s] [100%] Built target csm
+[1.849s] Invoked command in '/home/matthew/ros2_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/build/csm -- -j6 -l6
+[1.868s] Invoking command in '/home/matthew/ros2_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/opt/ros/iron /usr/bin/cmake --install /home/matthew/ros2_ws/build/csm
+[1.882s] -- Install configuration: ""
+[1.883s] -- Execute custom install script
+[1.883s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/lib/libcsm.so
+[1.884s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/include/..//include/csm/algos.h
+[1.884s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/include/..//include/csm/csm.h
+[1.885s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/include/..//include/csm/laser_data.h
+[1.885s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/include/..//include/csm/laser_data_inline.h
+[1.885s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/include/..//include/csm/restrict.h
+[1.885s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[1.886s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/resource/csm
+[1.887s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/include/../gsl_eigen/gsl_eigen.h
+[1.887s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/environment/library_path.sh
+[1.887s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/environment/library_path.dsv
+[1.888s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[1.888s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[1.888s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/environment/ament_prefix_path.sh
+[1.889s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/environment/ament_prefix_path.dsv
+[1.889s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/environment/path.sh
+[1.889s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/environment/path.dsv
+[1.890s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/local_setup.bash
+[1.890s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/local_setup.sh
+[1.890s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/local_setup.zsh
+[1.891s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/local_setup.dsv
+[1.891s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/package.dsv
+[1.910s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/ament_index/resource_index/packages/csm
+[1.910s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.910s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.911s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[1.911s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/cmake/csmConfig.cmake
+[1.911s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/cmake/csmConfig-version.cmake
+[1.911s] -- Up-to-date symlink: /home/matthew/ros2_ws/install/csm/share/csm/package.xml
+[1.923s] Invoked command in '/home/matthew/ros2_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/opt/ros/iron /usr/bin/cmake --install /home/matthew/ros2_ws/build/csm

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "status_display_msgs__py",
+		"source" : "/home/matthew/ros2_ws/build/status_display_msgs/status_display_msgs__py"
+	}
+}

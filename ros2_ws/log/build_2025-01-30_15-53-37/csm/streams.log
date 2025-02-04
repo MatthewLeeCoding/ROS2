@@ -1,0 +1,90 @@
+[0.059s] Invoking command in '/home/matthew/ros2_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/csm
+[1.300s] -- The C compiler identification is GNU 11.4.0
+[1.301s] -- The CXX compiler identification is GNU 11.4.0
+[1.302s] -- Detecting C compiler ABI info
+[1.303s] -- Detecting C compiler ABI info - done
+[1.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.303s] -- Detecting C compile features
+[1.303s] -- Detecting C compile features - done
+[1.303s] -- Detecting CXX compiler ABI info
+[1.303s] -- Detecting CXX compiler ABI info - done
+[1.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.303s] -- Detecting CXX compile features
+[1.303s] -- Detecting CXX compile features - done
+[1.304s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.304s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.305s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.305s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.373s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.398s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.809s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.814s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.061s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.120s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.737s] -- Configuring done
+[2.757s] -- Generating done
+[2.762s] -- Build files have been written to: /home/matthew/ros2_ws/build/csm
+[2.789s] Invoked command in '/home/matthew/ros2_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/csm
+[2.793s] Invoking command in '/home/matthew/ros2_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/build/csm -- -j6 -l6
+[2.895s] [  4%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o[0m
+[2.901s] [  8%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o[0m
+[2.909s] [ 12%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o[0m
+[2.910s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o[0m
+[2.917s] [ 20%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o[0m
+[2.985s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o[0m
+[6.618s] [ 29%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o[0m
+[6.869s] [ 33%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o[0m
+[7.144s] [ 37%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o[0m
+[7.237s] [ 41%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o[0m
+[7.252s] [ 45%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o[0m
+[7.346s] [ 50%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o[0m
+[10.855s] [ 54%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o[0m
+[10.871s] [ 58%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o[0m
+[10.995s] [ 62%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o[0m
+[11.274s] [ 66%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o[0m
+[11.291s] [ 70%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o[0m
+[14.870s] [ 75%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o[0m
+[15.046s] [ 79%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o[0m
+[15.238s] [ 83%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o[0m
+[15.286s] [ 87%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o[0m
+[18.635s] [ 91%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o[0m
+[18.746s] [ 95%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o[0m
+[40.905s] [100%] [32m[1mLinking CXX shared library libcsm.so[0m
+[41.752s] [100%] Built target csm
+[41.785s] Invoked command in '/home/matthew/ros2_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/build/csm -- -j6 -l6
+[41.790s] Invoking command in '/home/matthew/ros2_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake --install /home/matthew/ros2_ws/build/csm
+[41.809s] -- Install configuration: ""
+[41.810s] -- Execute custom install script
+[41.811s] -- Symlinking: /home/matthew/ros2_ws/install/csm/lib/libcsm.so
+[41.835s] -- Symlinking: /home/matthew/ros2_ws/install/csm/include/..//include/csm/algos.h
+[41.855s] -- Symlinking: /home/matthew/ros2_ws/install/csm/include/..//include/csm/csm.h
+[41.874s] -- Symlinking: /home/matthew/ros2_ws/install/csm/include/..//include/csm/laser_data.h
+[41.894s] -- Symlinking: /home/matthew/ros2_ws/install/csm/include/..//include/csm/laser_data_inline.h
+[41.916s] -- Symlinking: /home/matthew/ros2_ws/install/csm/include/..//include/csm/restrict.h
+[41.940s] -- Symlinking: /home/matthew/ros2_ws/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[41.961s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/resource/csm
+[41.983s] -- Symlinking: /home/matthew/ros2_ws/install/csm/include/../gsl_eigen/gsl_eigen.h
+[42.003s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/environment/library_path.sh
+[42.023s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/environment/library_path.dsv
+[42.044s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[42.063s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[42.086s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/environment/ament_prefix_path.sh
+[42.109s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/environment/ament_prefix_path.dsv
+[42.130s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/environment/path.sh
+[42.150s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/environment/path.dsv
+[42.172s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/local_setup.bash
+[42.191s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/local_setup.sh
+[42.211s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/local_setup.zsh
+[42.231s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/local_setup.dsv
+[42.250s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/package.dsv
+[42.272s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/ament_index/resource_index/packages/csm
+[42.289s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.310s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.332s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[42.351s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/cmake/csmConfig.cmake
+[42.371s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/cmake/csmConfig-version.cmake
+[42.389s] -- Symlinking: /home/matthew/ros2_ws/install/csm/share/csm/package.xml
+[42.419s] Invoked command in '/home/matthew/ros2_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron /usr/bin/cmake --install /home/matthew/ros2_ws/build/csm

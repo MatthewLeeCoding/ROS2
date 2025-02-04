@@ -1,0 +1,32 @@
+running develop
+Removing /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status-display.egg-link (link to .)
+running egg_info
+writing ../../build/status_display/status_display.egg-info/PKG-INFO
+writing dependency_links to ../../build/status_display/status_display.egg-info/dependency_links.txt
+writing entry points to ../../build/status_display/status_display.egg-info/entry_points.txt
+writing requirements to ../../build/status_display/status_display.egg-info/requires.txt
+writing top-level names to ../../build/status_display/status_display.egg-info/top_level.txt
+reading manifest file '../../build/status_display/status_display.egg-info/SOURCES.txt'
+writing manifest file '../../build/status_display/status_display.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/matthew/ros2_ws/build/status_display/build
+creating /home/matthew/ros2_ws/build/status_display/build/lib
+creating /home/matthew/ros2_ws/build/status_display/build/lib/status_display
+copying status_display/status_display.py -> /home/matthew/ros2_ws/build/status_display/build/lib/status_display
+copying status_display/__init__.py -> /home/matthew/ros2_ws/build/status_display/build/lib/status_display
+running install
+running install_lib
+creating /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display
+copying /home/matthew/ros2_ws/build/status_display/build/lib/status_display/status_display.py -> /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display
+copying /home/matthew/ros2_ws/build/status_display/build/lib/status_display/__init__.py -> /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display
+byte-compiling /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display/status_display.py to status_display.cpython-310.pyc
+byte-compiling /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/status_display -> /home/matthew/ros2_ws/install/status_display/share/ament_index/resource_index/packages
+copying package.xml -> /home/matthew/ros2_ws/install/status_display/share/status_display
+running install_egg_info
+Copying ../../build/status_display/status_display.egg-info to /home/matthew/ros2_ws/install/status_display/lib/python3.10/site-packages/status_display-0.0.0-py3.10.egg-info
+running install_scripts
+Installing status_display script to /home/matthew/ros2_ws/install/status_display/lib/status_display
+writing list of installed files to '/home/matthew/ros2_ws/build/status_display/install.log'

@@ -1,0 +1,66 @@
+[0.034s] Invoking command in '/home/matthew/ros2_ws/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/csm:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/src/install/my_robot_description:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/csm/lib:/home/matthew/ros2_ws/install/map_msgs/lib:/home/matthew/ros2_ws/install/dwb_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake /home/matthew/ros2_ws/src/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/ros2_laser_scan_matcher
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.287s] -- Detecting C compiler ABI info
+[0.447s] -- Detecting C compiler ABI info - done
+[0.473s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.473s] -- Detecting C compile features
+[0.474s] -- Detecting C compile features - done
+[0.482s] -- Detecting CXX compiler ABI info
+[0.659s] -- Detecting CXX compiler ABI info - done
+[0.678s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.679s] -- Detecting CXX compile features
+[0.679s] -- Detecting CXX compile features - done
+[0.689s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.101s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.349s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.434s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.460s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.930s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[2.137s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.143s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.346s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.413s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.501s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.832s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[3.061s] -- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+[3.906s] -- Found tf2_geometry_msgs: 0.31.8 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[3.937s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[3.940s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.940s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.965s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.966s] -- Found csm: 0.0.0 (/home/matthew/ros2_ws/install/csm/share/csm/cmake)
+[4.380s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[4.553s] -- Configuring done
+[4.606s] -- Generating done
+[4.619s] -- Build files have been written to: /home/matthew/ros2_ws/build/ros2_laser_scan_matcher
+[4.656s] Invoked command in '/home/matthew/ros2_ws/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/csm:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/src/install/my_robot_description:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/csm/lib:/home/matthew/ros2_ws/install/map_msgs/lib:/home/matthew/ros2_ws/install/dwb_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake /home/matthew/ros2_ws/src/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/install/ros2_laser_scan_matcher
+[4.660s] Invoking command in '/home/matthew/ros2_ws/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/csm:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/src/install/my_robot_description:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/csm/lib:/home/matthew/ros2_ws/install/map_msgs/lib:/home/matthew/ros2_ws/install/dwb_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --build /home/matthew/ros2_ws/build/ros2_laser_scan_matcher -- -j6 -l6
+[4.778s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_scan_matcher.dir/src/laser_scan_matcher.cpp.o[0m
+[29.841s] [100%] [32m[1mLinking CXX executable laser_scan_matcher[0m
+[31.385s] [100%] Built target laser_scan_matcher
+[31.413s] Invoked command in '/home/matthew/ros2_ws/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/csm:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/src/install/my_robot_description:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/csm/lib:/home/matthew/ros2_ws/install/map_msgs/lib:/home/matthew/ros2_ws/install/dwb_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --build /home/matthew/ros2_ws/build/ros2_laser_scan_matcher -- -j6 -l6
+[31.418s] Invoking command in '/home/matthew/ros2_ws/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/csm:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/src/install/my_robot_description:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/csm/lib:/home/matthew/ros2_ws/install/map_msgs/lib:/home/matthew/ros2_ws/install/dwb_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --install /home/matthew/ros2_ws/build/ros2_laser_scan_matcher
+[31.438s] -- Install configuration: ""
+[31.438s] -- Execute custom install script
+[31.439s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher
+[31.462s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_matcher
+[31.482s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_matcher
+[31.501s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.sh
+[31.522s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.dsv
+[31.542s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.sh
+[31.565s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.dsv
+[31.583s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.bash
+[31.605s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.sh
+[31.626s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.zsh
+[31.646s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.dsv
+[31.667s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv
+[31.686s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ament_index/resource_index/packages/ros2_laser_scan_matcher
+[31.704s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig.cmake
+[31.725s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig-version.cmake
+[31.746s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.xml
+[31.769s] -- Symlinking: /home/matthew/ros2_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher//launch/laser_scan_matcher_launch.py
+[31.791s] Invoked command in '/home/matthew/ros2_ws/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/matthew/ros2_ws/install/csm:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/src/install/my_robot_description:/home/matthew/ros2_ws/install/static_tf:/home/matthew/ros2_ws/install/motorcontrol:/home/matthew/ros2_ws/src/install/gazebo_robot_package:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/ros2_ws/install/csm/lib:/home/matthew/ros2_ws/install/map_msgs/lib:/home/matthew/ros2_ws/install/dwb_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib /usr/bin/cmake --install /home/matthew/ros2_ws/build/ros2_laser_scan_matcher

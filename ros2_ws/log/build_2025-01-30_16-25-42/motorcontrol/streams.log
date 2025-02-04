@@ -1,0 +1,18 @@
+[2.046s] Invoking command in '/home/matthew/ros2_ws/build/motorcontrol': PYTHONPATH=/home/matthew/ros2_ws/build/motorcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matthew/ros2_ws/build/motorcontrol/build --no-deps symlink_data --force
+[2.625s] running develop
+[3.026s] running egg_info
+[3.026s] writing motorcontrol.egg-info/PKG-INFO
+[3.027s] writing dependency_links to motorcontrol.egg-info/dependency_links.txt
+[3.027s] writing entry points to motorcontrol.egg-info/entry_points.txt
+[3.028s] writing requirements to motorcontrol.egg-info/requires.txt
+[3.029s] writing top-level names to motorcontrol.egg-info/top_level.txt
+[3.033s] reading manifest file 'motorcontrol.egg-info/SOURCES.txt'
+[3.034s] writing manifest file 'motorcontrol.egg-info/SOURCES.txt'
+[3.037s] running build_ext
+[3.038s] Creating /home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages/motorcontrol.egg-link (link to .)
+[3.040s] 
+[3.040s] Installed /home/matthew/ros2_ws/build/motorcontrol
+[3.040s] running symlink_data
+[3.040s] symbolically linking /home/matthew/ros2_ws/build/motorcontrol/resource/motorcontrol -> /home/matthew/ros2_ws/install/motorcontrol/share/ament_index/resource_index/packages
+[3.040s] symbolically linking /home/matthew/ros2_ws/build/motorcontrol/package.xml -> /home/matthew/ros2_ws/install/motorcontrol/share/motorcontrol
+[3.139s] Invoked command in '/home/matthew/ros2_ws/build/motorcontrol' returned '0': PYTHONPATH=/home/matthew/ros2_ws/build/motorcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/ros2_ws/install/motorcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matthew/ros2_ws/build/motorcontrol/build --no-deps symlink_data --force

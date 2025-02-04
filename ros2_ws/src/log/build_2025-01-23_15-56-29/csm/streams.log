@@ -1,0 +1,45 @@
+[0.047s] Invoking command in '/home/matthew/ros2_ws/src/build/csm': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/src/install/csm
+[0.656s] -- The C compiler identification is GNU 11.4.0
+[0.656s] -- The CXX compiler identification is GNU 11.4.0
+[0.656s] -- Detecting C compiler ABI info
+[0.656s] -- Detecting C compiler ABI info - done
+[0.656s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.657s] -- Detecting C compile features
+[0.657s] -- Detecting C compile features - done
+[0.657s] -- Detecting CXX compiler ABI info
+[0.657s] -- Detecting CXX compiler ABI info - done
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.669s] -- Detecting CXX compile features
+[0.671s] -- Detecting CXX compile features - done
+[0.674s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.102s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.255s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.324s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.413s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.437s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.842s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.847s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.059s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.139s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.835s] -- Configuring done
+[2.855s] -- Generating done
+[2.859s] -- Build files have been written to: /home/matthew/ros2_ws/src/build/csm
+[2.887s] Invoked command in '/home/matthew/ros2_ws/src/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/csm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/ros2_ws/src/install/csm
+[2.888s] Invoking command in '/home/matthew/ros2_ws/src/build/csm': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/ros2_ws/src/build/csm -- -j6 -l6
+[2.984s] [  8%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o[0m
+[2.985s] [  8%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o[0m
+[2.987s] [ 12%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o[0m
+[2.992s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o[0m
+[3.000s] [ 20%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o[0m
+[3.000s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o[0m
+[5.148s] gmake[2]: *** [CMakeFiles/csm.dir/build.make:76: CMakeFiles/csm.dir/src/csm/laser_data.cpp.o] Interrupt
+[5.149s] gmake[2]: *** [CMakeFiles/csm.dir/build.make:146: CMakeFiles/csm.dir/src/csm/sm_options.cpp.o] Interrupt
+[5.149s] gmake[2]: *** [CMakeFiles/csm.dir/build.make:90: CMakeFiles/csm.dir/src/csm/math_utils.cpp.o] Interrupt
+[5.150s] gmake[2]: *** [CMakeFiles/csm.dir/build.make:104: CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o] Interrupt
+[5.150s] gmake[2]: *** [CMakeFiles/csm.dir/build.make:132: CMakeFiles/csm.dir/src/csm/logging.cpp.o] Interrupt
+[5.150s] gmake[2]: *** [CMakeFiles/csm.dir/build.make:118: CMakeFiles/csm.dir/src/csm/utils.cpp.o] Interrupt
+[5.150s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/csm.dir/all] Interrupt
+[5.151s] gmake: *** [Makefile:146: all] Interrupt

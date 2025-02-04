@@ -1,0 +1,6 @@
+{
+  "package_name": "status_display_msgs",
+  "non_idl_tuples": [
+    "/home/matthew/ros2_ws/src/status_display_msgs:msg/StatusDisplay.msg"
+  ]
+}
