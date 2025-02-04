@@ -1,0 +1,42 @@
+[1.420s] Invoking command in '/home/matthew/nav2_ws/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matthew/nav2_ws/build/nav2_simple_commander/build --no-deps symlink_data
+[1.956s] running develop
+[2.304s] running egg_info
+[2.305s] creating nav2_simple_commander.egg-info
+[2.305s] writing nav2_simple_commander.egg-info/PKG-INFO
+[2.305s] writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+[2.306s] writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+[2.306s] writing requirements to nav2_simple_commander.egg-info/requires.txt
+[2.306s] writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+[2.306s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[2.310s] reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[2.312s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[2.315s] running build_ext
+[2.315s] Creating /home/matthew/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[2.317s] Installing demo_inspection script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.318s] Installing demo_picking script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.318s] Installing demo_recoveries script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.318s] Installing demo_security script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.318s] Installing example_assisted_teleop script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.318s] Installing example_follow_path script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.319s] Installing example_nav_through_poses script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.319s] Installing example_nav_to_pose script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.319s] Installing example_waypoint_follower script to /home/matthew/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.319s] 
+[2.320s] Installed /home/matthew/nav2_ws/build/nav2_simple_commander
+[2.320s] running symlink_data
+[2.320s] creating /home/matthew/nav2_ws/install/nav2_simple_commander/share/ament_index
+[2.320s] creating /home/matthew/nav2_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[2.320s] creating /home/matthew/nav2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[2.320s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/resource/nav2_simple_commander -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[2.321s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/package.xml -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.321s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/warehouse.world -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.321s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/inspection_demo_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.321s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/security_demo_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.321s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/follow_path_example_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.321s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/recoveries_example_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.322s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/assisted_teleop_example_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.322s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/nav_to_pose_example_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.322s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/waypoint_follower_example_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.322s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/nav_through_poses_example_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.322s] symbolically linking /home/matthew/nav2_ws/build/nav2_simple_commander/launch/picking_demo_launch.py -> /home/matthew/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.403s] Invoked command in '/home/matthew/nav2_ws/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matthew/nav2_ws/build/nav2_simple_commander/build --no-deps symlink_data

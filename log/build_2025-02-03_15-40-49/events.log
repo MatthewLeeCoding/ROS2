@@ -1,0 +1,931 @@
+[0.000000] (-) TimerEvent: {}
+[0.000685] (csm) JobQueued: {'identifier': 'csm', 'dependencies': OrderedDict()}
+[0.002342] (gazebo_robot_package) JobQueued: {'identifier': 'gazebo_robot_package', 'dependencies': OrderedDict()}
+[0.002638] (motorcontrol) JobQueued: {'identifier': 'motorcontrol', 'dependencies': OrderedDict()}
+[0.002925] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.003045] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.003143] (nav2_common) JobQueued: {'identifier': 'nav2_common', 'dependencies': OrderedDict()}
+[0.003235] (nav2_minimal_tb3_sim) JobQueued: {'identifier': 'nav2_minimal_tb3_sim', 'dependencies': OrderedDict()}
+[0.003324] (nav2_minimal_tb4_description) JobQueued: {'identifier': 'nav2_minimal_tb4_description', 'dependencies': OrderedDict()}
+[0.003411] (nav_2d_msgs) JobQueued: {'identifier': 'nav_2d_msgs', 'dependencies': OrderedDict()}
+[0.003496] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.003572] (static_tf) JobQueued: {'identifier': 'static_tf', 'dependencies': OrderedDict()}
+[0.003619] (status_display_msgs) JobQueued: {'identifier': 'status_display_msgs', 'dependencies': OrderedDict()}
+[0.003662] (urdf_example) JobQueued: {'identifier': 'urdf_example', 'dependencies': OrderedDict()}
+[0.003704] (dwb_msgs) JobQueued: {'identifier': 'dwb_msgs', 'dependencies': OrderedDict([('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs')])}
+[0.003755] (nav2_minimal_tb4_sim) JobQueued: {'identifier': 'nav2_minimal_tb4_sim', 'dependencies': OrderedDict([('nav2_minimal_tb4_description', '/home/matthew/install/nav2_minimal_tb4_description')])}
+[0.003803] (nav2_msgs) JobQueued: {'identifier': 'nav2_msgs', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common')])}
+[0.003848] (nav2_voxel_grid) JobQueued: {'identifier': 'nav2_voxel_grid', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common')])}
+[0.003893] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict([('status_display_msgs', '/home/matthew/install/status_display_msgs')])}
+[0.003939] (nav2_simple_commander) JobQueued: {'identifier': 'nav2_simple_commander', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs')])}
+[0.004002] (nav2_util) JobQueued: {'identifier': 'nav2_util', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs')])}
+[0.004051] (nav2_amcl) JobQueued: {'identifier': 'nav2_amcl', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_util', '/home/matthew/install/nav2_util')])}
+[0.004101] (nav2_behavior_tree) JobQueued: {'identifier': 'nav2_behavior_tree', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_util', '/home/matthew/install/nav2_util')])}
+[0.004151] (nav2_lifecycle_manager) JobQueued: {'identifier': 'nav2_lifecycle_manager', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_util', '/home/matthew/install/nav2_util')])}
+[0.004200] (nav2_map_server) JobQueued: {'identifier': 'nav2_map_server', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_util', '/home/matthew/install/nav2_util')])}
+[0.004247] (nav2_velocity_smoother) JobQueued: {'identifier': 'nav2_velocity_smoother', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_util', '/home/matthew/install/nav2_util')])}
+[0.004294] (nav_2d_utils) JobQueued: {'identifier': 'nav_2d_utils', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_util', '/home/matthew/install/nav2_util')])}
+[0.004372] (ros2_laser_scan_matcher) JobQueued: {'identifier': 'ros2_laser_scan_matcher', 'dependencies': OrderedDict([('csm', '/home/matthew/install/csm'), ('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_util', '/home/matthew/install/nav2_util')])}
+[0.004425] (nav2_costmap_2d) JobQueued: {'identifier': 'nav2_costmap_2d', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server')])}
+[0.004484] (nav2_rviz_plugins) JobQueued: {'identifier': 'nav2_rviz_plugins', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager')])}
+[0.004534] (costmap_queue) JobQueued: {'identifier': 'costmap_queue', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d')])}
+[0.004600] (nav2_collision_monitor) JobQueued: {'identifier': 'nav2_collision_monitor', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d')])}
+[0.004656] (nav2_core) JobQueued: {'identifier': 'nav2_core', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d')])}
+[0.004721] (dwb_core) JobQueued: {'identifier': 'dwb_core', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('dwb_msgs', '/home/matthew/install/dwb_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.004804] (nav2_behaviors) JobQueued: {'identifier': 'nav2_behaviors', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.004885] (nav2_bt_navigator) JobQueued: {'identifier': 'nav2_bt_navigator', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.004952] (nav2_constrained_smoother) JobQueued: {'identifier': 'nav2_constrained_smoother', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005010] (nav2_controller) JobQueued: {'identifier': 'nav2_controller', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005141] (nav2_mppi_controller) JobQueued: {'identifier': 'nav2_mppi_controller', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005266] (nav2_navfn_planner) JobQueued: {'identifier': 'nav2_navfn_planner', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005360] (nav2_planner) JobQueued: {'identifier': 'nav2_planner', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005447] (nav2_regulated_pure_pursuit_controller) JobQueued: {'identifier': 'nav2_regulated_pure_pursuit_controller', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005691] (nav2_smac_planner) JobQueued: {'identifier': 'nav2_smac_planner', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005766] (nav2_smoother) JobQueued: {'identifier': 'nav2_smoother', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005837] (nav2_theta_star_planner) JobQueued: {'identifier': 'nav2_theta_star_planner', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.005897] (nav2_waypoint_follower) JobQueued: {'identifier': 'nav2_waypoint_follower', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core')])}
+[0.006001] (dwb_critics) JobQueued: {'identifier': 'dwb_critics', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('dwb_msgs', '/home/matthew/install/dwb_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('costmap_queue', '/home/matthew/install/costmap_queue'), ('nav2_core', '/home/matthew/install/nav2_core'), ('dwb_core', '/home/matthew/install/dwb_core')])}
+[0.006132] (dwb_plugins) JobQueued: {'identifier': 'dwb_plugins', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('dwb_msgs', '/home/matthew/install/dwb_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core'), ('dwb_core', '/home/matthew/install/dwb_core')])}
+[0.006222] (nav2_rotation_shim_controller) JobQueued: {'identifier': 'nav2_rotation_shim_controller', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_core', '/home/matthew/install/nav2_core'), ('nav2_controller', '/home/matthew/install/nav2_controller'), ('nav2_regulated_pure_pursuit_controller', '/home/matthew/install/nav2_regulated_pure_pursuit_controller')])}
+[0.006296] (nav2_dwb_controller) JobQueued: {'identifier': 'nav2_dwb_controller', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('dwb_msgs', '/home/matthew/install/dwb_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('costmap_queue', '/home/matthew/install/costmap_queue'), ('nav2_core', '/home/matthew/install/nav2_core'), ('dwb_core', '/home/matthew/install/dwb_core'), ('dwb_critics', '/home/matthew/install/dwb_critics'), ('dwb_plugins', '/home/matthew/install/dwb_plugins')])}
+[0.006428] (navigation2) JobQueued: {'identifier': 'navigation2', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('dwb_msgs', '/home/matthew/install/dwb_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_simple_commander', '/home/matthew/install/nav2_simple_commander'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_amcl', '/home/matthew/install/nav2_amcl'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_velocity_smoother', '/home/matthew/install/nav2_velocity_smoother'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_rviz_plugins', '/home/matthew/install/nav2_rviz_plugins'), ('costmap_queue', '/home/matthew/install/costmap_queue'), ('nav2_collision_monitor', '/home/matthew/install/nav2_collision_monitor'), ('nav2_core', '/home/matthew/install/nav2_core'), ('dwb_core', '/home/matthew/install/dwb_core'), ('nav2_behaviors', '/home/matthew/install/nav2_behaviors'), ('nav2_bt_navigator', '/home/matthew/install/nav2_bt_navigator'), ('nav2_constrained_smoother', '/home/matthew/install/nav2_constrained_smoother'), ('nav2_controller', '/home/matthew/install/nav2_controller'), ('nav2_mppi_controller', '/home/matthew/install/nav2_mppi_controller'), ('nav2_navfn_planner', '/home/matthew/install/nav2_navfn_planner'), ('nav2_planner', '/home/matthew/install/nav2_planner'), ('nav2_regulated_pure_pursuit_controller', '/home/matthew/install/nav2_regulated_pure_pursuit_controller'), ('nav2_smac_planner', '/home/matthew/install/nav2_smac_planner'), ('nav2_smoother', '/home/matthew/install/nav2_smoother'), ('nav2_theta_star_planner', '/home/matthew/install/nav2_theta_star_planner'), ('nav2_waypoint_follower', '/home/matthew/install/nav2_waypoint_follower'), ('dwb_critics', '/home/matthew/install/dwb_critics'), ('dwb_plugins', '/home/matthew/install/dwb_plugins'), ('nav2_rotation_shim_controller', '/home/matthew/install/nav2_rotation_shim_controller'), ('nav2_dwb_controller', '/home/matthew/install/nav2_dwb_controller')])}
+[0.006689] (nav2_bringup) JobQueued: {'identifier': 'nav2_bringup', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('dwb_msgs', '/home/matthew/install/dwb_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_simple_commander', '/home/matthew/install/nav2_simple_commander'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_amcl', '/home/matthew/install/nav2_amcl'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_velocity_smoother', '/home/matthew/install/nav2_velocity_smoother'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_rviz_plugins', '/home/matthew/install/nav2_rviz_plugins'), ('costmap_queue', '/home/matthew/install/costmap_queue'), ('nav2_collision_monitor', '/home/matthew/install/nav2_collision_monitor'), ('nav2_core', '/home/matthew/install/nav2_core'), ('dwb_core', '/home/matthew/install/dwb_core'), ('nav2_behaviors', '/home/matthew/install/nav2_behaviors'), ('nav2_bt_navigator', '/home/matthew/install/nav2_bt_navigator'), ('nav2_constrained_smoother', '/home/matthew/install/nav2_constrained_smoother'), ('nav2_controller', '/home/matthew/install/nav2_controller'), ('nav2_mppi_controller', '/home/matthew/install/nav2_mppi_controller'), ('nav2_navfn_planner', '/home/matthew/install/nav2_navfn_planner'), ('nav2_planner', '/home/matthew/install/nav2_planner'), ('nav2_regulated_pure_pursuit_controller', '/home/matthew/install/nav2_regulated_pure_pursuit_controller'), ('nav2_smac_planner', '/home/matthew/install/nav2_smac_planner'), ('nav2_smoother', '/home/matthew/install/nav2_smoother'), ('nav2_theta_star_planner', '/home/matthew/install/nav2_theta_star_planner'), ('nav2_waypoint_follower', '/home/matthew/install/nav2_waypoint_follower'), ('dwb_critics', '/home/matthew/install/dwb_critics'), ('dwb_plugins', '/home/matthew/install/dwb_plugins'), ('nav2_rotation_shim_controller', '/home/matthew/install/nav2_rotation_shim_controller'), ('nav2_dwb_controller', '/home/matthew/install/nav2_dwb_controller'), ('navigation2', '/home/matthew/install/navigation2')])}
+[0.006879] (nav2_system_tests) JobQueued: {'identifier': 'nav2_system_tests', 'dependencies': OrderedDict([('nav2_common', '/home/matthew/install/nav2_common'), ('nav_2d_msgs', '/home/matthew/install/nav_2d_msgs'), ('dwb_msgs', '/home/matthew/install/dwb_msgs'), ('nav2_msgs', '/home/matthew/install/nav2_msgs'), ('nav2_voxel_grid', '/home/matthew/install/nav2_voxel_grid'), ('nav2_simple_commander', '/home/matthew/install/nav2_simple_commander'), ('nav2_util', '/home/matthew/install/nav2_util'), ('nav2_amcl', '/home/matthew/install/nav2_amcl'), ('nav2_behavior_tree', '/home/matthew/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/matthew/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/matthew/install/nav2_map_server'), ('nav2_velocity_smoother', '/home/matthew/install/nav2_velocity_smoother'), ('nav_2d_utils', '/home/matthew/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/matthew/install/nav2_costmap_2d'), ('nav2_rviz_plugins', '/home/matthew/install/nav2_rviz_plugins'), ('costmap_queue', '/home/matthew/install/costmap_queue'), ('nav2_collision_monitor', '/home/matthew/install/nav2_collision_monitor'), ('nav2_core', '/home/matthew/install/nav2_core'), ('dwb_core', '/home/matthew/install/dwb_core'), ('nav2_behaviors', '/home/matthew/install/nav2_behaviors'), ('nav2_bt_navigator', '/home/matthew/install/nav2_bt_navigator'), ('nav2_constrained_smoother', '/home/matthew/install/nav2_constrained_smoother'), ('nav2_controller', '/home/matthew/install/nav2_controller'), ('nav2_mppi_controller', '/home/matthew/install/nav2_mppi_controller'), ('nav2_navfn_planner', '/home/matthew/install/nav2_navfn_planner'), ('nav2_planner', '/home/matthew/install/nav2_planner'), ('nav2_regulated_pure_pursuit_controller', '/home/matthew/install/nav2_regulated_pure_pursuit_controller'), ('nav2_smac_planner', '/home/matthew/install/nav2_smac_planner'), ('nav2_smoother', '/home/matthew/install/nav2_smoother'), ('nav2_theta_star_planner', '/home/matthew/install/nav2_theta_star_planner'), ('nav2_waypoint_follower', '/home/matthew/install/nav2_waypoint_follower'), ('dwb_critics', '/home/matthew/install/dwb_critics'), ('dwb_plugins', '/home/matthew/install/dwb_plugins'), ('nav2_rotation_shim_controller', '/home/matthew/install/nav2_rotation_shim_controller'), ('nav2_dwb_controller', '/home/matthew/install/nav2_dwb_controller'), ('navigation2', '/home/matthew/install/navigation2'), ('nav2_bringup', '/home/matthew/install/nav2_bringup')])}
+[0.007013] (nav2_common) JobStarted: {'identifier': 'nav2_common'}
+[0.024009] (nav_2d_msgs) JobStarted: {'identifier': 'nav_2d_msgs'}
+[0.031564] (csm) JobStarted: {'identifier': 'csm'}
+[0.038092] (nav2_minimal_tb4_description) JobStarted: {'identifier': 'nav2_minimal_tb4_description'}
+[0.044893] (status_display_msgs) JobStarted: {'identifier': 'status_display_msgs'}
+[0.051310] (gazebo_robot_package) JobStarted: {'identifier': 'gazebo_robot_package'}
+[0.069781] (nav2_common) JobProgress: {'identifier': 'nav2_common', 'progress': 'cmake'}
+[0.073889] (nav2_common) Command: {'cmd': ['/usr/bin/cmake', '/home/matthew/nav2_ws/src/navigation2/nav2_common', '-DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav2_common'], 'cwd': '/home/matthew/build/nav2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/nav2_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.080283] (nav_2d_msgs) JobProgress: {'identifier': 'nav_2d_msgs', 'progress': 'cmake'}
+[0.099014] (-) TimerEvent: {}
+[0.121306] (nav_2d_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/matthew/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs', '-DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav_2d_msgs'], 'cwd': '/home/matthew/build/nav_2d_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/nav_2d_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.126865] (csm) JobProgress: {'identifier': 'csm', 'progress': 'cmake'}
+[0.131126] (csm) Command: {'cmd': ['/usr/bin/cmake', '/home/matthew/ros2_ws/src/csm', '-DCMAKE_INSTALL_PREFIX=/home/matthew/install/csm'], 'cwd': '/home/matthew/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/csm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.134687] (nav2_minimal_tb4_description) JobProgress: {'identifier': 'nav2_minimal_tb4_description', 'progress': 'cmake'}
+[0.140995] (nav2_minimal_tb4_description) Command: {'cmd': ['/usr/bin/cmake', '/home/matthew/nav2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description', '-DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav2_minimal_tb4_description'], 'cwd': '/home/matthew/build/nav2_minimal_tb4_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/nav2_minimal_tb4_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.144635] (status_display_msgs) JobProgress: {'identifier': 'status_display_msgs', 'progress': 'cmake'}
+[0.173419] (status_display_msgs) JobProgress: {'identifier': 'status_display_msgs', 'progress': 'build'}
+[0.174886] (status_display_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matthew/build/status_display_msgs', '--', '-j6', '-l6'], 'cwd': '/home/matthew/build/status_display_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/status_display_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.194723] (nav2_common) StdoutLine: {'line': b'-- Found ament_cmake_core: 2.0.7 (/opt/ros/iron/share/ament_cmake_core/cmake)\n'}
+[0.199144] (-) TimerEvent: {}
+[0.213113] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.213697] (csm) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.214833] (nav_2d_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[0.299322] (-) TimerEvent: {}
+[0.374023] (status_display_msgs) StdoutLine: {'line': b'[  2%] Built target status_display_msgs__rosidl_generator_type_description\n'}
+[0.396501] (status_display_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_status_display_msgs\n'}
+[0.399460] (-) TimerEvent: {}
+[0.437504] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.449088] (status_display_msgs) StdoutLine: {'line': b'[  5%] Built target status_display_msgs__cpp\n'}
+[0.499642] (-) TimerEvent: {}
+[0.516238] (status_display_msgs) StdoutLine: {'line': b'[ 20%] Built target status_display_msgs__rosidl_generator_c\n'}
+[0.561830] (nav2_common) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.568559] (csm) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.570521] (nav2_common) StdoutLine: {'line': b'-- Found ament_cmake_python: 2.0.7 (/opt/ros/iron/share/ament_cmake_python/cmake)\n'}
+[0.592169] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.594397] (nav_2d_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.597146] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.600085] (-) TimerEvent: {}
+[0.603091] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.615838] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.620091] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.634253] (csm) StdoutLine: {'line': b'-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.646265] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)\n'}
+[0.650136] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.652408] (status_display_msgs) StdoutLine: {'line': b'[ 29%] Built target status_display_msgs__rosidl_typesupport_cpp\n'}
+[0.665832] (status_display_msgs) StdoutLine: {'line': b'[ 38%] Built target status_display_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.674245] (status_display_msgs) StdoutLine: {'line': b'[ 47%] Built target status_display_msgs__rosidl_typesupport_introspection_c\n'}
+[0.691259] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.692050] (status_display_msgs) StdoutLine: {'line': b'[ 55%] Built target status_display_msgs__rosidl_typesupport_c\n'}
+[0.697667] (status_display_msgs) StdoutLine: {'line': b'[ 64%] Built target status_display_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.700555] (-) TimerEvent: {}
+[0.735435] (csm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.741174] (status_display_msgs) StdoutLine: {'line': b'[ 73%] Built target status_display_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.744282] (nav_2d_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.763057] (nav_2d_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.763527] (csm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.800732] (-) TimerEvent: {}
+[0.801653] (status_display_msgs) StdoutLine: {'line': b'[ 73%] Built target status_display_msgs\n'}
+[0.806372] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found xacro: 2.0.11 (/opt/ros/iron/share/xacro/cmake)\n'}
+[0.810732] (nav_2d_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.811802] (csm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.822825] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[0.850705] (status_display_msgs) StdoutLine: {'line': b'[ 76%] Built target status_display_msgs__py\n'}
+[0.858390] (nav_2d_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.860088] (csm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.878650] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.901252] (-) TimerEvent: {}
+[0.944668] (status_display_msgs) StdoutLine: {'line': b'[ 82%] Built target status_display_msgs__rosidl_generator_py\n'}
+[0.974630] (nav2_common) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001451] (-) TimerEvent: {}
+[1.057226] (nav2_common) StdoutLine: {'line': b'-- Generating done\n'}
+[1.060552] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.063110] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.063475] (nav2_common) StdoutLine: {'line': b'-- Build files have been written to: /home/matthew/build/nav2_common\n'}
+[1.067048] (status_display_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_display_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.072829] (nav2_common) CommandEnded: {'returncode': 0}
+[1.073749] (nav2_common) JobProgress: {'identifier': 'nav2_common', 'progress': 'build'}
+[1.073823] (nav2_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matthew/build/nav2_common', '--', '-j6', '-l6'], 'cwd': '/home/matthew/build/nav2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/nav2_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.074659] (status_display_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.075691] (status_display_msgs) StdoutLine: {'line': b'writing status_display_msgs.egg-info/PKG-INFO\n'}
+[1.076227] (status_display_msgs) StdoutLine: {'line': b'writing dependency_links to status_display_msgs.egg-info/dependency_links.txt\n'}
+[1.076719] (status_display_msgs) StdoutLine: {'line': b'writing top-level names to status_display_msgs.egg-info/top_level.txt\n'}
+[1.087951] (status_display_msgs) StdoutLine: {'line': b'[ 88%] Built target status_display_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.088511] (status_display_msgs) StdoutLine: {'line': b"reading manifest file 'status_display_msgs.egg-info/SOURCES.txt'\n"}
+[1.091099] (status_display_msgs) StdoutLine: {'line': b"writing manifest file 'status_display_msgs.egg-info/SOURCES.txt'\n"}
+[1.101619] (-) TimerEvent: {}
+[1.110346] (status_display_msgs) StdoutLine: {'line': b'[ 94%] Built target status_display_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.124266] (status_display_msgs) StdoutLine: {'line': b'[100%] Built target status_display_msgs__rosidl_typesupport_c__pyext\n'}
+[1.125288] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.139417] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.140162] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.142522] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.144429] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.149521] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.153454] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.167550] (status_display_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_status_display_msgs_egg\n'}
+[1.174092] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.180384] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Build files have been written to: /home/matthew/build/nav2_minimal_tb4_description\n'}
+[1.191946] (status_display_msgs) CommandEnded: {'returncode': 0}
+[1.193040] (nav_2d_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[1.195447] (status_display_msgs) JobProgress: {'identifier': 'status_display_msgs', 'progress': 'install'}
+[1.201059] (nav2_common) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_nav2_common\n'}
+[1.201694] (-) TimerEvent: {}
+[1.213639] (status_display_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matthew/build/status_display_msgs'], 'cwd': '/home/matthew/build/status_display_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/status_display_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.216121] (nav_2d_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[1.220200] (nav2_minimal_tb4_description) CommandEnded: {'returncode': 0}
+[1.220980] (nav2_minimal_tb4_description) JobProgress: {'identifier': 'nav2_minimal_tb4_description', 'progress': 'build'}
+[1.221051] (nav2_minimal_tb4_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matthew/build/nav2_minimal_tb4_description', '--', '-j6', '-l6'], 'cwd': '/home/matthew/build/nav2_minimal_tb4_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/nav2_minimal_tb4_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.235093] (status_display_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.237193] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/ament_index/resource_index/rosidl_interfaces/status_display_msgs\n'}
+[1.238211] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/msg/StatusDisplay.json\n'}
+[1.239410] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs\n'}
+[1.240057] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg\n'}
+[1.240668] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail\n'}
+[1.241326] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__functions.h\n'}
+[1.241607] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__struct.h\n'}
+[1.241861] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__functions.c\n'}
+[1.242120] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__type_support.h\n'}
+[1.242275] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__description.c\n'}
+[1.242428] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__type_support.c\n'}
+[1.242611] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/status_display.h\n'}
+[1.242817] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.242968] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/environment/library_path.sh\n'}
+[1.243148] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/environment/library_path.dsv\n'}
+[1.244345] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_generator_c.so\n'}
+[1.245042] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs\n'}
+[1.245263] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg\n'}
+[1.245401] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail\n'}
+[1.245527] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__rosidl_typesupport_fastrtps_c.h\n'}
+[1.245648] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.245946] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.247581] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs\n'}
+[1.247847] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg\n'}
+[1.247997] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail\n'}
+[1.248130] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__rosidl_typesupport_introspection_c.h\n'}
+[1.255976] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__type_support.c\n'}
+[1.256210] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.256389] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.256545] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_c.so\n'}
+[1.256937] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs\n'}
+[1.257116] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg\n'}
+[1.257260] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail\n'}
+[1.257394] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__builder.hpp\n'}
+[1.257549] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__struct.hpp\n'}
+[1.257679] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__traits.hpp\n'}
+[1.257799] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/status_display.hpp\n'}
+[1.257917] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs\n'}
+[1.258062] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg\n'}
+[1.258179] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail\n'}
+[1.258294] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.258444] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/dds_fastrtps\n'}
+[1.258574] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.258736] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.258856] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs\n'}
+[1.258972] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg\n'}
+[1.259085] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail\n'}
+[1.259198] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.259313] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/include/status_display_msgs/status_display_msgs/msg/detail/status_display__type_support.cpp\n'}
+[1.259427] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.259540] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_typesupport_cpp.so\n'}
+[1.260108] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/environment/pythonpath.sh\n'}
+[1.260635] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/environment/pythonpath.dsv\n'}
+[1.262946] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info\n'}
+[1.263923] (status_display_msgs) StdoutLine: {'line': b'-- Installing: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.264740] (status_display_msgs) StdoutLine: {'line': b'-- Installing: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.265438] (status_display_msgs) StdoutLine: {'line': b'-- Installing: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.266131] (status_display_msgs) StdoutLine: {'line': b'-- Installing: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.266975] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs\n'}
+[1.267794] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/_status_display_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.268232] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/_status_display_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.268611] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.268990] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/__init__.py\n'}
+[1.269380] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/_status_display_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.269728] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg\n'}
+[1.270489] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg/_status_display_s.c\n'}
+[1.270888] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg/__init__.py\n'}
+[1.271246] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg/_status_display.py\n'}
+[1.271614] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.271969] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/libstatus_display_msgs__rosidl_generator_py.so\n'}
+[1.272312] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.301883] (-) TimerEvent: {}
+[1.304984] (nav2_minimal_tb4_description) CommandEnded: {'returncode': 0}
+[1.307727] (nav2_minimal_tb4_description) JobProgress: {'identifier': 'nav2_minimal_tb4_description', 'progress': 'install'}
+[1.307845] (nav2_minimal_tb4_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matthew/build/nav2_minimal_tb4_description'], 'cwd': '/home/matthew/build/nav2_minimal_tb4_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/nav2_minimal_tb4_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.324274] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.325154] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.326154] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/tb4_description.dsv\n'}
+[1.340209] (status_display_msgs) StdoutLine: {'line': b"Listing '/home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs'...\n"}
+[1.340654] (status_display_msgs) StdoutLine: {'line': b"Listing '/home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/msg'...\n"}
+[1.347031] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/launch/robot_description.launch.py\n'}
+[1.354951] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.356898] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.358168] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/python3.10/site-packages/status_display_msgs/status_display_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.359775] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/lib/libstatus_display_msgs__rosidl_generator_py.so\n'}
+[1.360233] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/msg/StatusDisplay.idl\n'}
+[1.360785] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/msg/StatusDisplay.msg\n'}
+[1.361578] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/ament_index/resource_index/package_run_dependencies/status_display_msgs\n'}
+[1.362438] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/ament_index/resource_index/parent_prefix_path/status_display_msgs\n'}
+[1.362797] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/environment/ament_prefix_path.sh\n'}
+[1.363075] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/environment/ament_prefix_path.dsv\n'}
+[1.363328] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/environment/path.sh\n'}
+[1.363573] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/environment/path.dsv\n'}
+[1.363966] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/local_setup.bash\n'}
+[1.364380] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/local_setup.sh\n'}
+[1.364697] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/local_setup.zsh\n'}
+[1.364875] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/local_setup.dsv\n'}
+[1.365007] (status_display_msgs) StdoutLine: {'line': b'-- Installing: /home/matthew/install/status_display_msgs/share/status_display_msgs/package.dsv\n'}
+[1.366214] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/ament_index/resource_index/packages/status_display_msgs\n'}
+[1.366602] (csm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.369724] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_cExport.cmake\n'}
+[1.370118] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.371603] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.371917] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.373499] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.373775] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.374812] (csm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.375099] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.375350] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.376724] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.378232] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.378502] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.380175] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.380478] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.381712] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.381969] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.383515] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.383852] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/export_status_display_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.384117] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.384404] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.384691] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.384890] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.385019] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.385142] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.385259] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.385375] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgsConfig.cmake\n'}
+[1.385531] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/cmake/status_display_msgsConfig-version.cmake\n'}
+[1.385650] (status_display_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matthew/install/status_display_msgs/share/status_display_msgs/package.xml\n'}
+[1.391632] (status_display_msgs) CommandEnded: {'returncode': 0}
+[1.403004] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/body_visual.dae\n'}
+[1.403457] (-) TimerEvent: {}
+[1.421496] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_collision.dae\n'}
+[1.440924] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_visual.dae\n'}
+[1.470989] (status_display_msgs) JobEnded: {'identifier': 'status_display_msgs', 'rc': 0}
+[1.473194] (motorcontrol) JobStarted: {'identifier': 'motorcontrol'}
+[1.475815] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/camera_bracket.dae\n'}
+[1.494605] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/oakd_pro.dae\n'}
+[1.503641] (-) TimerEvent: {}
+[1.514305] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/rplidar.dae\n'}
+[1.531957] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell.dae\n'}
+[1.550271] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell_collision.dae\n'}
+[1.568926] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower.dae\n'}
+[1.586941] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_sensor_plate.dae\n'}
+[1.603959] (-) TimerEvent: {}
+[1.635172] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_standoff.dae\n'}
+[1.668270] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/weight_block.dae\n'}
+[1.700254] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/bumper.urdf.xacro\n'}
+[1.704116] (-) TimerEvent: {}
+[1.756897] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/caster.urdf.xacro\n'}
+[1.757528] (nav2_common) StdoutLine: {'line': b'running egg_info\n'}
+[1.758172] (csm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.759674] (nav2_common) StdoutLine: {'line': b'creating nav2_common.egg-info\n'}
+[1.760761] (nav2_common) StdoutLine: {'line': b'writing nav2_common.egg-info/PKG-INFO\n'}
+[1.761819] (nav2_common) StdoutLine: {'line': b'writing dependency_links to nav2_common.egg-info/dependency_links.txt\n'}
+[1.762754] (nav2_common) StdoutLine: {'line': b'writing top-level names to nav2_common.egg-info/top_level.txt\n'}
+[1.763795] (nav2_common) StdoutLine: {'line': b"writing manifest file 'nav2_common.egg-info/SOURCES.txt'\n"}
+[1.769739] (nav2_common) StdoutLine: {'line': b"reading manifest file 'nav2_common.egg-info/SOURCES.txt'\n"}
+[1.771894] (nav2_common) StdoutLine: {'line': b"writing manifest file 'nav2_common.egg-info/SOURCES.txt'\n"}
+[1.776913] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/common_properties.urdf.xacro\n'}
+[1.795748] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/create3.urdf.xacro\n'}
+[1.804319] (-) TimerEvent: {}
+[1.815491] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/sensors/imu.urdf.xacro\n'}
+[1.853670] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/wheel.urdf.xacro\n'}
+[1.871138] (nav2_common) StdoutLine: {'line': b'Built target ament_cmake_python_build_nav2_common_egg\n'}
+[1.885624] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/camera_bracket.urdf.xacro\n'}
+[1.900695] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/oakd.urdf.xacro\n'}
+[1.904417] (-) TimerEvent: {}
+[1.917897] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/rplidar.urdf.xacro\n'}
+[1.935736] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_sensor_plate.urdf.xacro\n'}
+[1.952216] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_standoff.urdf.xacro\n'}
+[1.968734] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/turtlebot4.urdf.xacro\n'}
+[1.984255] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/weight_block.urdf.xacro\n'}
+[2.001101] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/rviz/config.rviz\n'}
+[2.004523] (-) TimerEvent: {}
+[2.017043] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb4_description\n'}
+[2.035243] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb4_description\n'}
+[2.051974] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.sh\n'}
+[2.069190] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.dsv\n'}
+[2.087374] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.sh\n'}
+[2.104702] (-) TimerEvent: {}
+[2.105347] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.dsv\n'}
+[2.122954] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.bash\n'}
+[2.129319] (gazebo_robot_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/matthew/build/gazebo_robot_package/build'], 'cwd': '/home/matthew/build/gazebo_robot_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'matthew', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/matthew', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2389', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'matthew', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matthew', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matthew/build/gazebo_robot_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matthew/build/gazebo_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matthew/install/gazebo_robot_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.133347] (nav2_common) CommandEnded: {'returncode': 0}
+[2.136841] (nav2_common) JobProgress: {'identifier': 'nav2_common', 'progress': 'install'}
+[2.139297] (nav2_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matthew/build/nav2_common'], 'cwd': '/home/matthew/build/nav2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/nav2_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.143341] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.sh\n'}
+[2.153107] (nav2_common) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.153958] (nav2_common) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.155554] (nav_2d_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[2.156867] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/pythonpath.sh\n'}
+[2.158960] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.zsh\n'}
+[2.176150] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/pythonpath.dsv\n'}
+[2.176596] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.dsv\n'}
+[2.193164] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.dsv\n'}
+[2.204886] (-) TimerEvent: {}
+[2.207374] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/PKG-INFO\n'}
+[2.210896] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/ament_index/resource_index/packages/nav2_minimal_tb4_description\n'}
+[2.225744] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/SOURCES.txt\n'}
+[2.229966] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig.cmake\n'}
+[2.242960] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/dependency_links.txt\n'}
+[2.252867] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig-version.cmake\n'}
+[2.260055] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/top_level.txt\n'}
+[2.273285] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.xml\n'}
+[2.277845] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/__init__.py\n'}
+[2.296099] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/__init__.py\n'}
+[2.303826] (nav2_minimal_tb4_description) CommandEnded: {'returncode': 0}
+[2.304965] (-) TimerEvent: {}
+[2.313756] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/has_node_params.py\n'}
+[2.323009] (csm) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.331686] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/parse_multirobot_pose.py\n'}
+[2.340701] (nav2_minimal_tb4_description) JobEnded: {'identifier': 'nav2_minimal_tb4_description', 'rc': 0}
+[2.343169] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[2.354080] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/replace_string.py\n'}
+[2.356295] (my_robot) JobProgress: {'identifier': 'my_robot', 'progress': 'cmake'}
+[2.360495] (my_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/matthew/catkin_ws/src/my_robot', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/matthew/install/my_robot'], 'cwd': '/home/matthew/build/my_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/my_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.371521] (csm) StdoutLine: {'line': b'-- Generating done\n'}
+[2.384098] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/rewritten_yaml.py\n'}
+[2.384540] (csm) StdoutLine: {'line': b'-- Build files have been written to: /home/matthew/build/csm\n'}
+[2.395671] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common\n'}
+[2.406850] (csm) CommandEnded: {'returncode': 0}
+[2.407674] (-) TimerEvent: {}
+[2.407968] (csm) JobProgress: {'identifier': 'csm', 'progress': 'build'}
+[2.408030] (csm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matthew/build/csm', '--', '-j6', '-l6'], 'cwd': '/home/matthew/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'matthew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matthew'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matthew'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matthew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/matthew/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/matthew-desktop:@/tmp/.ICE-unix/2194,unix/matthew-desktop:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4746ed70_fdb1_436f_9144_ac220c9ab418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matthew/build/csm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.413141] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common\n'}
+[2.424254] (my_robot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[2.424879] (my_robot) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.425059] (my_robot) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.425212] (my_robot) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.425490] (my_robot) StderrLine: {'line': b'\n'}
+[2.425628] (my_robot) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.425753] (my_robot) StderrLine: {'line': b'  of the following names:\n'}
+[2.425871] (my_robot) StderrLine: {'line': b'\n'}
+[2.425983] (my_robot) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.426094] (my_robot) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.426202] (my_robot) StderrLine: {'line': b'\n'}
+[2.426308] (my_robot) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.426448] (my_robot) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.426576] (my_robot) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.426686] (my_robot) StderrLine: {'line': b'  installed.\n'}
+[2.426792] (my_robot) StderrLine: {'line': b'\n'}
+[2.426898] (my_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[2.427004] (my_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.427165] (my_robot) StdoutLine: {'line': b'See also "/home/matthew/build/my_robot/CMakeFiles/CMakeOutput.log".\n'}
+[2.430361] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh\n'}
+[2.432673] (my_robot) CommandEnded: {'returncode': 1}
+[2.449566] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv\n'}
+[2.466912] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 1}
+[2.468840] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/path.sh\n'}
+[2.489140] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/path.dsv\n'}
+[2.507876] (-) TimerEvent: {}
+[2.514907] (csm) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o\x1b[0m\n'}
+[2.515806] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/local_setup.bash\n'}
+[2.517920] (csm) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o\x1b[0m\n'}
+[2.528833] (csm) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o\x1b[0m\n'}
+[2.532281] (csm) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o\x1b[0m\n'}
+[2.534686] (csm) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o\x1b[0m\n'}
+[2.536959] (csm) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o\x1b[0m\n'}
+[2.539529] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/local_setup.sh\n'}
+[2.558290] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/local_setup.zsh\n'}
+[2.576334] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/local_setup.dsv\n'}
+[2.591496] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/package.dsv\n'}
+[2.607975] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/ament_index/resource_index/packages/nav2_common\n'}
+[2.608390] (-) TimerEvent: {}
+[2.624594] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake\n'}
+[2.640658] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake\n'}
+[2.656880] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake\n'}
+[2.674137] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/package.xml\n'}
+[2.696370] (nav2_common) StdoutLine: {'line': b'-- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake\n'}
+[2.708581] (-) TimerEvent: {}
+[2.779011] (gazebo_robot_package) StdoutLine: {'line': b'running develop\n'}
+[2.808752] (-) TimerEvent: {}
+[2.817480] (nav2_common) StdoutLine: {'line': b"Listing '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common'...\n"}
+[2.818143] (nav2_common) StdoutLine: {'line': b"Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/__init__.py'...\n"}
+[2.818363] (nav2_common) StdoutLine: {'line': b"Listing '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch'...\n"}
+[2.818607] (nav2_common) StdoutLine: {'line': b"Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/__init__.py'...\n"}
+[2.818750] (nav2_common) StdoutLine: {'line': b"Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/has_node_params.py'...\n"}
+[2.818879] (nav2_common) StdoutLine: {'line': b"Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/parse_multirobot_pose.py'...\n"}
+[2.819000] (nav2_common) StdoutLine: {'line': b"Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/replace_string.py'...\n"}
+[2.819117] (nav2_common) StdoutLine: {'line': b"Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/rewritten_yaml.py'...\n"}
+[2.836628] (nav2_common) JobEnded: {'identifier': 'nav2_common', 'rc': 'SIGINT'}
+[2.908927] (-) TimerEvent: {}
+[3.009585] (-) TimerEvent: {}
+[3.065147] (motorcontrol) JobEnded: {'identifier': 'motorcontrol', 'rc': 'SIGINT'}
+[3.109750] (-) TimerEvent: {}
+[3.210442] (-) TimerEvent: {}
+[3.235421] (nav_2d_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.237050] (gazebo_robot_package) StdoutLine: {'line': b'Removing /home/matthew/install/gazebo_robot_package/lib/python3.10/site-packages/gazebo-robot-package.egg-link (link to .)\n'}
+[3.310579] (-) TimerEvent: {}
+[3.332739] (gazebo_robot_package) JobEnded: {'identifier': 'gazebo_robot_package', 'rc': 'SIGINT'}
+[3.410885] (-) TimerEvent: {}
+[3.511940] (-) TimerEvent: {}
+[3.612996] (-) TimerEvent: {}
+[3.714127] (-) TimerEvent: {}
+[3.815039] (-) TimerEvent: {}
+[3.821094] (nav_2d_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.915390] (-) TimerEvent: {}
+[4.009802] (nav_2d_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[4.015466] (-) TimerEvent: {}
+[4.080170] (nav_2d_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.081106] (nav_2d_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.081466] (nav_2d_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[4.115754] (-) TimerEvent: {}
+[4.217041] (-) TimerEvent: {}
+[4.315151] (nav_2d_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.317708] (-) TimerEvent: {}
+[4.418778] (-) TimerEvent: {}
+[4.519731] (-) TimerEvent: {}
+[4.617785] (nav_2d_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.619868] (-) TimerEvent: {}
+[4.677520] (nav_2d_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/matthew/build/nav_2d_msgs\n'}
+[4.720082] (-) TimerEvent: {}
+[4.726878] (nav_2d_msgs) JobEnded: {'identifier': 'nav_2d_msgs', 'rc': 'SIGINT'}
+[4.820293] (-) TimerEvent: {}
+[4.921008] (-) TimerEvent: {}
+[5.021710] (-) TimerEvent: {}
+[5.125328] (-) TimerEvent: {}
+[5.226024] (-) TimerEvent: {}
+[5.326762] (-) TimerEvent: {}
+[5.427486] (-) TimerEvent: {}
+[5.528205] (-) TimerEvent: {}
+[5.628937] (-) TimerEvent: {}
+[5.729696] (-) TimerEvent: {}
+[5.830456] (-) TimerEvent: {}
+[5.931173] (-) TimerEvent: {}
+[6.031908] (-) TimerEvent: {}
+[6.132634] (-) TimerEvent: {}
+[6.233965] (-) TimerEvent: {}
+[6.335334] (-) TimerEvent: {}
+[6.436402] (-) TimerEvent: {}
+[6.537489] (-) TimerEvent: {}
+[6.638540] (-) TimerEvent: {}
+[6.739596] (-) TimerEvent: {}
+[6.840722] (-) TimerEvent: {}
+[6.941789] (-) TimerEvent: {}
+[7.042898] (-) TimerEvent: {}
+[7.143615] (-) TimerEvent: {}
+[7.244394] (-) TimerEvent: {}
+[7.345149] (-) TimerEvent: {}
+[7.445888] (-) TimerEvent: {}
+[7.546755] (-) TimerEvent: {}
+[7.647473] (-) TimerEvent: {}
+[7.748196] (-) TimerEvent: {}
+[7.848976] (-) TimerEvent: {}
+[7.949731] (-) TimerEvent: {}
+[8.050477] (-) TimerEvent: {}
+[8.151193] (-) TimerEvent: {}
+[8.240533] (csm) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o\x1b[0m\n'}
+[8.242277] (csm) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o\x1b[0m\n'}
+[8.242555] (csm) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o\x1b[0m\n'}
+[8.251373] (-) TimerEvent: {}
+[8.258371] (csm) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o\x1b[0m\n'}
+[8.258810] (csm) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o\x1b[0m\n'}
+[8.351560] (-) TimerEvent: {}
+[8.360825] (csm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o\x1b[0m\n'}
+[8.451740] (-) TimerEvent: {}
+[8.552709] (-) TimerEvent: {}
+[8.653743] (-) TimerEvent: {}
+[8.756837] (-) TimerEvent: {}
+[8.859760] (-) TimerEvent: {}
+[8.960803] (-) TimerEvent: {}
+[9.061865] (-) TimerEvent: {}
+[9.162578] (-) TimerEvent: {}
+[9.263300] (-) TimerEvent: {}
+[9.364041] (-) TimerEvent: {}
+[9.464797] (-) TimerEvent: {}
+[9.565907] (-) TimerEvent: {}
+[9.667010] (-) TimerEvent: {}
+[9.768106] (-) TimerEvent: {}
+[9.869215] (-) TimerEvent: {}
+[9.970274] (-) TimerEvent: {}
+[10.071316] (-) TimerEvent: {}
+[10.172300] (-) TimerEvent: {}
+[10.273372] (-) TimerEvent: {}
+[10.374491] (-) TimerEvent: {}
+[10.475524] (-) TimerEvent: {}
+[10.576579] (-) TimerEvent: {}
+[10.677655] (-) TimerEvent: {}
+[10.778787] (-) TimerEvent: {}
+[10.879862] (-) TimerEvent: {}
+[10.980935] (-) TimerEvent: {}
+[11.082008] (-) TimerEvent: {}
+[11.183085] (-) TimerEvent: {}
+[11.284179] (-) TimerEvent: {}
+[11.385250] (-) TimerEvent: {}
+[11.486298] (-) TimerEvent: {}
+[11.587316] (-) TimerEvent: {}
+[11.688408] (-) TimerEvent: {}
+[11.789440] (-) TimerEvent: {}
+[11.890592] (-) TimerEvent: {}
+[11.952430] (csm) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o\x1b[0m\n'}
+[11.960422] (csm) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o\x1b[0m\n'}
+[11.990782] (-) TimerEvent: {}
+[12.106574] (-) TimerEvent: {}
+[12.172444] (csm) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o\x1b[0m\n'}
+[12.194571] (csm) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o\x1b[0m\n'}
+[12.206768] (-) TimerEvent: {}
+[12.307483] (-) TimerEvent: {}
+[12.408235] (-) TimerEvent: {}
+[12.453039] (csm) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o\x1b[0m\n'}
+[12.508428] (-) TimerEvent: {}
+[12.609182] (-) TimerEvent: {}
+[12.709970] (-) TimerEvent: {}
+[12.811032] (-) TimerEvent: {}
+[12.912097] (-) TimerEvent: {}
+[13.013151] (-) TimerEvent: {}
+[13.114173] (-) TimerEvent: {}
+[13.215214] (-) TimerEvent: {}
+[13.316312] (-) TimerEvent: {}
+[13.417406] (-) TimerEvent: {}
+[13.518552] (-) TimerEvent: {}
+[13.619663] (-) TimerEvent: {}
+[13.720779] (-) TimerEvent: {}
+[13.823622] (-) TimerEvent: {}
+[13.924788] (-) TimerEvent: {}
+[14.025911] (-) TimerEvent: {}
+[14.127580] (-) TimerEvent: {}
+[14.229139] (-) TimerEvent: {}
+[14.329902] (-) TimerEvent: {}
+[14.430724] (-) TimerEvent: {}
+[14.531504] (-) TimerEvent: {}
+[14.632310] (-) TimerEvent: {}
+[14.733444] (-) TimerEvent: {}
+[14.834209] (-) TimerEvent: {}
+[14.935335] (-) TimerEvent: {}
+[15.036072] (-) TimerEvent: {}
+[15.136856] (-) TimerEvent: {}
+[15.237640] (-) TimerEvent: {}
+[15.338529] (-) TimerEvent: {}
+[15.439220] (-) TimerEvent: {}
+[15.542616] (-) TimerEvent: {}
+[15.643335] (-) TimerEvent: {}
+[15.744372] (-) TimerEvent: {}
+[15.845423] (-) TimerEvent: {}
+[15.946487] (-) TimerEvent: {}
+[16.047976] (-) TimerEvent: {}
+[16.148952] (-) TimerEvent: {}
+[16.249982] (-) TimerEvent: {}
+[16.290779] (csm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o\x1b[0m\n'}
+[16.313129] (csm) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o\x1b[0m\n'}
+[16.350191] (-) TimerEvent: {}
+[16.356842] (csm) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o\x1b[0m\n'}
+[16.450436] (-) TimerEvent: {}
+[16.498195] (csm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o\x1b[0m\n'}
+[16.550640] (-) TimerEvent: {}
+[16.651853] (-) TimerEvent: {}
+[16.752935] (-) TimerEvent: {}
+[16.854033] (-) TimerEvent: {}
+[16.955173] (-) TimerEvent: {}
+[17.058199] (-) TimerEvent: {}
+[17.159386] (-) TimerEvent: {}
+[17.262508] (-) TimerEvent: {}
+[17.363522] (-) TimerEvent: {}
+[17.464620] (-) TimerEvent: {}
+[17.565669] (-) TimerEvent: {}
+[17.666795] (-) TimerEvent: {}
+[17.768061] (-) TimerEvent: {}
+[17.869276] (-) TimerEvent: {}
+[17.970382] (-) TimerEvent: {}
+[18.071510] (-) TimerEvent: {}
+[18.172630] (-) TimerEvent: {}
+[18.273746] (-) TimerEvent: {}
+[18.374866] (-) TimerEvent: {}
+[18.475929] (-) TimerEvent: {}
+[18.577020] (-) TimerEvent: {}
+[18.678165] (-) TimerEvent: {}
+[18.780175] (-) TimerEvent: {}
+[18.881322] (-) TimerEvent: {}
+[18.901912] (csm) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o\x1b[0m\n'}
+[18.981556] (-) TimerEvent: {}
+[19.082634] (-) TimerEvent: {}
+[19.183679] (-) TimerEvent: {}
+[19.284732] (-) TimerEvent: {}
+[19.386115] (-) TimerEvent: {}
+[19.487625] (-) TimerEvent: {}
+[19.594666] (-) TimerEvent: {}
+[19.698948] (-) TimerEvent: {}
+[19.799733] (-) TimerEvent: {}
+[19.900522] (-) TimerEvent: {}
+[19.976810] (csm) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o\x1b[0m\n'}
+[20.000714] (-) TimerEvent: {}
+[20.101501] (-) TimerEvent: {}
+[20.202587] (-) TimerEvent: {}
+[20.303690] (-) TimerEvent: {}
+[20.407218] (-) TimerEvent: {}
+[20.508423] (-) TimerEvent: {}
+[20.609136] (-) TimerEvent: {}
+[20.709880] (-) TimerEvent: {}
+[20.810622] (-) TimerEvent: {}
+[20.911403] (-) TimerEvent: {}
+[21.012074] (-) TimerEvent: {}
+[21.112785] (-) TimerEvent: {}
+[21.213542] (-) TimerEvent: {}
+[21.314295] (-) TimerEvent: {}
+[21.415026] (-) TimerEvent: {}
+[21.515724] (-) TimerEvent: {}
+[21.616411] (-) TimerEvent: {}
+[21.717104] (-) TimerEvent: {}
+[21.817820] (-) TimerEvent: {}
+[21.918701] (-) TimerEvent: {}
+[22.019523] (-) TimerEvent: {}
+[22.120285] (-) TimerEvent: {}
+[22.221016] (-) TimerEvent: {}
+[22.321725] (-) TimerEvent: {}
+[22.422537] (-) TimerEvent: {}
+[22.523373] (-) TimerEvent: {}
+[22.624235] (-) TimerEvent: {}
+[22.725279] (-) TimerEvent: {}
+[22.826073] (-) TimerEvent: {}
+[22.927128] (-) TimerEvent: {}
+[23.028085] (-) TimerEvent: {}
+[23.128804] (-) TimerEvent: {}
+[23.229757] (-) TimerEvent: {}
+[23.330570] (-) TimerEvent: {}
+[23.431370] (-) TimerEvent: {}
+[23.532201] (-) TimerEvent: {}
+[23.633034] (-) TimerEvent: {}
+[23.733876] (-) TimerEvent: {}
+[23.834688] (-) TimerEvent: {}
+[23.935369] (-) TimerEvent: {}
+[24.036102] (-) TimerEvent: {}
+[24.136922] (-) TimerEvent: {}
+[24.237736] (-) TimerEvent: {}
+[24.338567] (-) TimerEvent: {}
+[24.439327] (-) TimerEvent: {}
+[24.540167] (-) TimerEvent: {}
+[24.641002] (-) TimerEvent: {}
+[24.741841] (-) TimerEvent: {}
+[24.842762] (-) TimerEvent: {}
+[24.943570] (-) TimerEvent: {}
+[25.044260] (-) TimerEvent: {}
+[25.144987] (-) TimerEvent: {}
+[25.245822] (-) TimerEvent: {}
+[25.346685] (-) TimerEvent: {}
+[25.447503] (-) TimerEvent: {}
+[25.548330] (-) TimerEvent: {}
+[25.649162] (-) TimerEvent: {}
+[25.750038] (-) TimerEvent: {}
+[25.850918] (-) TimerEvent: {}
+[25.951793] (-) TimerEvent: {}
+[26.052632] (-) TimerEvent: {}
+[26.153451] (-) TimerEvent: {}
+[26.254301] (-) TimerEvent: {}
+[26.355400] (-) TimerEvent: {}
+[26.456215] (-) TimerEvent: {}
+[26.557053] (-) TimerEvent: {}
+[26.658201] (-) TimerEvent: {}
+[26.759074] (-) TimerEvent: {}
+[26.859913] (-) TimerEvent: {}
+[26.960734] (-) TimerEvent: {}
+[27.061432] (-) TimerEvent: {}
+[27.162154] (-) TimerEvent: {}
+[27.263002] (-) TimerEvent: {}
+[27.363789] (-) TimerEvent: {}
+[27.464597] (-) TimerEvent: {}
+[27.565424] (-) TimerEvent: {}
+[27.666259] (-) TimerEvent: {}
+[27.767137] (-) TimerEvent: {}
+[27.868007] (-) TimerEvent: {}
+[27.969154] (-) TimerEvent: {}
+[28.069978] (-) TimerEvent: {}
+[28.170844] (-) TimerEvent: {}
+[28.271687] (-) TimerEvent: {}
+[28.372574] (-) TimerEvent: {}
+[28.473435] (-) TimerEvent: {}
+[28.574241] (-) TimerEvent: {}
+[28.674995] (-) TimerEvent: {}
+[28.775829] (-) TimerEvent: {}
+[28.876710] (-) TimerEvent: {}
+[28.977536] (-) TimerEvent: {}
+[29.078373] (-) TimerEvent: {}
+[29.179191] (-) TimerEvent: {}
+[29.279900] (-) TimerEvent: {}
+[29.380648] (-) TimerEvent: {}
+[29.481503] (-) TimerEvent: {}
+[29.582320] (-) TimerEvent: {}
+[29.683058] (-) TimerEvent: {}
+[29.783863] (-) TimerEvent: {}
+[29.884689] (-) TimerEvent: {}
+[29.985524] (-) TimerEvent: {}
+[30.086353] (-) TimerEvent: {}
+[30.187220] (-) TimerEvent: {}
+[30.288020] (-) TimerEvent: {}
+[30.388796] (-) TimerEvent: {}
+[30.489623] (-) TimerEvent: {}
+[30.590497] (-) TimerEvent: {}
+[30.691862] (-) TimerEvent: {}
+[30.792762] (-) TimerEvent: {}
+[30.893630] (-) TimerEvent: {}
+[30.994493] (-) TimerEvent: {}
+[31.095345] (-) TimerEvent: {}
+[31.196249] (-) TimerEvent: {}
+[31.297048] (-) TimerEvent: {}
+[31.397846] (-) TimerEvent: {}
+[31.498714] (-) TimerEvent: {}
+[31.599485] (-) TimerEvent: {}
+[31.700323] (-) TimerEvent: {}
+[31.801127] (-) TimerEvent: {}
+[31.901886] (-) TimerEvent: {}
+[32.002577] (-) TimerEvent: {}
+[32.103287] (-) TimerEvent: {}
+[32.203987] (-) TimerEvent: {}
+[32.304704] (-) TimerEvent: {}
+[32.405463] (-) TimerEvent: {}
+[32.506358] (-) TimerEvent: {}
+[32.607173] (-) TimerEvent: {}
+[32.708013] (-) TimerEvent: {}
+[32.808842] (-) TimerEvent: {}
+[32.909661] (-) TimerEvent: {}
+[33.010384] (-) TimerEvent: {}
+[33.111113] (-) TimerEvent: {}
+[33.211823] (-) TimerEvent: {}
+[33.312510] (-) TimerEvent: {}
+[33.413195] (-) TimerEvent: {}
+[33.513924] (-) TimerEvent: {}
+[33.614668] (-) TimerEvent: {}
+[33.715411] (-) TimerEvent: {}
+[33.816141] (-) TimerEvent: {}
+[33.916917] (-) TimerEvent: {}
+[34.017628] (-) TimerEvent: {}
+[34.118340] (-) TimerEvent: {}
+[34.219075] (-) TimerEvent: {}
+[34.319790] (-) TimerEvent: {}
+[34.420494] (-) TimerEvent: {}
+[34.521178] (-) TimerEvent: {}
+[34.621889] (-) TimerEvent: {}
+[34.722579] (-) TimerEvent: {}
+[34.823264] (-) TimerEvent: {}
+[34.923985] (-) TimerEvent: {}
+[35.024686] (-) TimerEvent: {}
+[35.125373] (-) TimerEvent: {}
+[35.226046] (-) TimerEvent: {}
+[35.326784] (-) TimerEvent: {}
+[35.427467] (-) TimerEvent: {}
+[35.528133] (-) TimerEvent: {}
+[35.628809] (-) TimerEvent: {}
+[35.729502] (-) TimerEvent: {}
+[35.830238] (-) TimerEvent: {}
+[35.930934] (-) TimerEvent: {}
+[36.031645] (-) TimerEvent: {}
+[36.132479] (-) TimerEvent: {}
+[36.233305] (-) TimerEvent: {}
+[36.334134] (-) TimerEvent: {}
+[36.434974] (-) TimerEvent: {}
+[36.535765] (-) TimerEvent: {}
+[36.636560] (-) TimerEvent: {}
+[36.737343] (-) TimerEvent: {}
+[36.838126] (-) TimerEvent: {}
+[36.938907] (-) TimerEvent: {}
+[37.039693] (-) TimerEvent: {}
+[37.140360] (-) TimerEvent: {}
+[37.240939] (-) TimerEvent: {}
+[37.341701] (-) TimerEvent: {}
+[37.442493] (-) TimerEvent: {}
+[37.543235] (-) TimerEvent: {}
+[37.643985] (-) TimerEvent: {}
+[37.744628] (-) TimerEvent: {}
+[37.845277] (-) TimerEvent: {}
+[37.945928] (-) TimerEvent: {}
+[38.046596] (-) TimerEvent: {}
+[38.147350] (-) TimerEvent: {}
+[38.248112] (-) TimerEvent: {}
+[38.348932] (-) TimerEvent: {}
+[38.449859] (-) TimerEvent: {}
+[38.550740] (-) TimerEvent: {}
+[38.651635] (-) TimerEvent: {}
+[38.752511] (-) TimerEvent: {}
+[38.853331] (-) TimerEvent: {}
+[38.954123] (-) TimerEvent: {}
+[39.054955] (-) TimerEvent: {}
+[39.155803] (-) TimerEvent: {}
+[39.256675] (-) TimerEvent: {}
+[39.357492] (-) TimerEvent: {}
+[39.458324] (-) TimerEvent: {}
+[39.559092] (-) TimerEvent: {}
+[39.660024] (-) TimerEvent: {}
+[39.760698] (-) TimerEvent: {}
+[39.861393] (-) TimerEvent: {}
+[39.962107] (-) TimerEvent: {}
+[40.062817] (-) TimerEvent: {}
+[40.163513] (-) TimerEvent: {}
+[40.264434] (-) TimerEvent: {}
+[40.365366] (-) TimerEvent: {}
+[40.466300] (-) TimerEvent: {}
+[40.567043] (-) TimerEvent: {}
+[40.667953] (-) TimerEvent: {}
+[40.768644] (-) TimerEvent: {}
+[40.869315] (-) TimerEvent: {}
+[40.969975] (-) TimerEvent: {}
+[41.070893] (-) TimerEvent: {}
+[41.171567] (-) TimerEvent: {}
+[41.272254] (-) TimerEvent: {}
+[41.373169] (-) TimerEvent: {}
+[41.473854] (-) TimerEvent: {}
+[41.574572] (-) TimerEvent: {}
+[41.675298] (-) TimerEvent: {}
+[41.776083] (-) TimerEvent: {}
+[41.876690] (-) TimerEvent: {}
+[41.977256] (-) TimerEvent: {}
+[42.077730] (-) TimerEvent: {}
+[42.178182] (-) TimerEvent: {}
+[42.278753] (-) TimerEvent: {}
+[42.379381] (-) TimerEvent: {}
+[42.480055] (-) TimerEvent: {}
+[42.580751] (-) TimerEvent: {}
+[42.681486] (-) TimerEvent: {}
+[42.782255] (-) TimerEvent: {}
+[42.883017] (-) TimerEvent: {}
+[42.983675] (-) TimerEvent: {}
+[43.084389] (-) TimerEvent: {}
+[43.185075] (-) TimerEvent: {}
+[43.285867] (-) TimerEvent: {}
+[43.301166] (csm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcsm.so\x1b[0m\n'}
+[43.386163] (-) TimerEvent: {}
+[43.487330] (-) TimerEvent: {}
+[43.588123] (-) TimerEvent: {}
+[43.688987] (-) TimerEvent: {}
+[43.789835] (-) TimerEvent: {}
+[43.890678] (-) TimerEvent: {}
+[43.991494] (-) TimerEvent: {}
+[44.092617] (-) TimerEvent: {}
+[44.193450] (-) TimerEvent: {}
+[44.244604] (csm) StdoutLine: {'line': b'[100%] Built target csm\n'}
+[44.275096] (csm) JobEnded: {'identifier': 'csm', 'rc': 'SIGINT'}
+[44.289265] (my_robot_description) JobSkipped: {'identifier': 'my_robot_description'}
+[44.289702] (nav2_minimal_tb3_sim) JobSkipped: {'identifier': 'nav2_minimal_tb3_sim'}
+[44.289870] (sllidar_ros2) JobSkipped: {'identifier': 'sllidar_ros2'}
+[44.289938] (static_tf) JobSkipped: {'identifier': 'static_tf'}
+[44.290082] (urdf_example) JobSkipped: {'identifier': 'urdf_example'}
+[44.290136] (dwb_msgs) JobSkipped: {'identifier': 'dwb_msgs'}
+[44.290176] (nav2_minimal_tb4_sim) JobSkipped: {'identifier': 'nav2_minimal_tb4_sim'}
+[44.290211] (nav2_msgs) JobSkipped: {'identifier': 'nav2_msgs'}
+[44.290285] (nav2_voxel_grid) JobSkipped: {'identifier': 'nav2_voxel_grid'}
+[44.290322] (status_display) JobSkipped: {'identifier': 'status_display'}
+[44.290356] (nav2_simple_commander) JobSkipped: {'identifier': 'nav2_simple_commander'}
+[44.290389] (nav2_util) JobSkipped: {'identifier': 'nav2_util'}
+[44.290435] (nav2_amcl) JobSkipped: {'identifier': 'nav2_amcl'}
+[44.290472] (nav2_behavior_tree) JobSkipped: {'identifier': 'nav2_behavior_tree'}
+[44.290506] (nav2_lifecycle_manager) JobSkipped: {'identifier': 'nav2_lifecycle_manager'}
+[44.290539] (nav2_map_server) JobSkipped: {'identifier': 'nav2_map_server'}
+[44.290571] (nav2_velocity_smoother) JobSkipped: {'identifier': 'nav2_velocity_smoother'}
+[44.290604] (nav_2d_utils) JobSkipped: {'identifier': 'nav_2d_utils'}
+[44.290637] (ros2_laser_scan_matcher) JobSkipped: {'identifier': 'ros2_laser_scan_matcher'}
+[44.290670] (nav2_costmap_2d) JobSkipped: {'identifier': 'nav2_costmap_2d'}
+[44.290703] (nav2_rviz_plugins) JobSkipped: {'identifier': 'nav2_rviz_plugins'}
+[44.290735] (costmap_queue) JobSkipped: {'identifier': 'costmap_queue'}
+[44.290768] (nav2_collision_monitor) JobSkipped: {'identifier': 'nav2_collision_monitor'}
+[44.290801] (nav2_core) JobSkipped: {'identifier': 'nav2_core'}
+[44.290833] (dwb_core) JobSkipped: {'identifier': 'dwb_core'}
+[44.290865] (nav2_behaviors) JobSkipped: {'identifier': 'nav2_behaviors'}
+[44.290897] (nav2_bt_navigator) JobSkipped: {'identifier': 'nav2_bt_navigator'}
+[44.290929] (nav2_constrained_smoother) JobSkipped: {'identifier': 'nav2_constrained_smoother'}
+[44.290961] (nav2_controller) JobSkipped: {'identifier': 'nav2_controller'}
+[44.290993] (nav2_mppi_controller) JobSkipped: {'identifier': 'nav2_mppi_controller'}
+[44.291025] (nav2_navfn_planner) JobSkipped: {'identifier': 'nav2_navfn_planner'}
+[44.291056] (nav2_planner) JobSkipped: {'identifier': 'nav2_planner'}
+[44.291089] (nav2_regulated_pure_pursuit_controller) JobSkipped: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[44.291125] (nav2_smac_planner) JobSkipped: {'identifier': 'nav2_smac_planner'}
+[44.291156] (nav2_smoother) JobSkipped: {'identifier': 'nav2_smoother'}
+[44.291188] (nav2_theta_star_planner) JobSkipped: {'identifier': 'nav2_theta_star_planner'}
+[44.291220] (nav2_waypoint_follower) JobSkipped: {'identifier': 'nav2_waypoint_follower'}
+[44.291251] (dwb_critics) JobSkipped: {'identifier': 'dwb_critics'}
+[44.291283] (dwb_plugins) JobSkipped: {'identifier': 'dwb_plugins'}
+[44.291315] (nav2_rotation_shim_controller) JobSkipped: {'identifier': 'nav2_rotation_shim_controller'}
+[44.291346] (nav2_dwb_controller) JobSkipped: {'identifier': 'nav2_dwb_controller'}
+[44.291378] (navigation2) JobSkipped: {'identifier': 'navigation2'}
+[44.291409] (nav2_bringup) JobSkipped: {'identifier': 'nav2_bringup'}
+[44.291441] (nav2_system_tests) JobSkipped: {'identifier': 'nav2_system_tests'}
+[44.291524] (-) EventReactorShutdown: {}

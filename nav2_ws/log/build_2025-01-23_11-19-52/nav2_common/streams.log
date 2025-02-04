@@ -1,0 +1,45 @@
+[0.034s] Invoking command in '/home/matthew/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_common -- -j6 -l6
+[0.163s] Built target ament_cmake_python_symlink_nav2_common
+[0.726s] running egg_info
+[0.727s] writing nav2_common.egg-info/PKG-INFO
+[0.728s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.728s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.734s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.737s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.813s] Built target ament_cmake_python_build_nav2_common_egg
+[0.846s] Invoked command in '/home/matthew/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_common -- -j6 -l6
+[0.876s] Invoking command in '/home/matthew/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_common
+[0.895s] -- Install configuration: ""
+[0.896s] -- Execute custom install script
+[0.898s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.898s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.900s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/PKG-INFO
+[0.901s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/SOURCES.txt
+[0.901s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/dependency_links.txt
+[0.902s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/top_level.txt
+[0.904s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common/__init__.py
+[0.905s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/__init__.py
+[0.906s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/has_node_params.py
+[0.906s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/parse_multirobot_pose.py
+[0.907s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/replace_string.py
+[0.908s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/rewritten_yaml.py
+[0.909s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.910s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.910s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.911s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.911s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[0.912s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.912s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[0.912s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[0.914s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.914s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.914s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/package.dsv
+[0.939s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.940s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.940s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.941s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.942s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/package.xml
+[0.942s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.015s] Listing '/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common'...
+[1.015s] Listing '/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch'...
+[1.034s] Invoked command in '/home/matthew/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_common

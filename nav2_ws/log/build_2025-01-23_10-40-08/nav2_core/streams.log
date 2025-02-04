@@ -1,0 +1,83 @@
+[0.079s] Invoking command in '/home/matthew/nav2_ws/build/nav2_core': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/nav2_ws/install/nav2_core
+[0.215s] -- The C compiler identification is GNU 11.4.0
+[0.327s] -- The CXX compiler identification is GNU 11.4.0
+[0.343s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.499s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.499s] -- Detecting C compile features
+[0.500s] -- Detecting C compile features - done
+[0.506s] -- Detecting CXX compiler ABI info
+[0.666s] -- Detecting CXX compiler ABI info - done
+[0.679s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.679s] -- Detecting CXX compile features
+[0.680s] -- Detecting CXX compile features - done
+[0.687s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.068s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.229s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.301s] -- Found nav2_common: 1.2.10 (/home/matthew/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.306s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.419s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.449s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.895s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.902s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.161s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.227s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.685s] -- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[2.899s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[2.964s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[3.043s] -- Found nav2_costmap_2d: 1.2.10 (/home/matthew/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[6.103s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.103s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.266s] -- Found nav2_behavior_tree: 1.2.10 (/home/matthew/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[9.773s] -- Setting build type to Release as none was specified.
+[9.778s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[10.035s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.036s] -- Configured cppcheck include dirs: 
+[10.036s] -- Configured cppcheck exclude dirs and/or files: 
+[10.038s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.038s] -- Configured cpplint exclude dirs and/or files: 
+[10.039s] -- Added test 'lint_cmake' to check CMake code style
+[10.042s] -- Added test 'uncrustify' to check C / C++ code style
+[10.042s] -- Configured uncrustify additional arguments: 
+[10.043s] -- Added test 'xmllint' to check XML markup files
+[10.049s] -- Configuring done
+[10.065s] -- Generating done
+[10.072s] -- Build files have been written to: /home/matthew/nav2_ws/build/nav2_core
+[10.107s] Invoked command in '/home/matthew/nav2_ws/build/nav2_core' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/nav2_ws/install/nav2_core
+[10.110s] Invoking command in '/home/matthew/nav2_ws/build/nav2_core': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_core -- -j6 -l6
+[10.207s] Invoked command in '/home/matthew/nav2_ws/build/nav2_core' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_core -- -j6 -l6
+[10.208s] Invoking command in '/home/matthew/nav2_ws/build/nav2_core': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_core
+[10.221s] -- Install configuration: "Release"
+[10.222s] -- Execute custom install script
+[10.223s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/behavior.hpp
+[10.242s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/behavior_tree_navigator.hpp
+[10.261s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/controller.hpp
+[10.280s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/controller_exceptions.hpp
+[10.299s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/global_planner.hpp
+[10.319s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/goal_checker.hpp
+[10.338s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/planner_exceptions.hpp
+[10.357s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/progress_checker.hpp
+[10.377s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/smoother.hpp
+[10.396s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/smoother_exceptions.hpp
+[10.415s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/include//nav2_core/waypoint_task_executor.hpp
+[10.434s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/ament_index/resource_index/package_run_dependencies/nav2_core
+[10.453s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/ament_index/resource_index/parent_prefix_path/nav2_core
+[10.473s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/environment/ament_prefix_path.sh
+[10.492s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/environment/ament_prefix_path.dsv
+[10.511s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/environment/path.sh
+[10.530s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/environment/path.dsv
+[10.549s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/local_setup.bash
+[10.569s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/local_setup.sh
+[10.588s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/local_setup.zsh
+[10.607s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/local_setup.dsv
+[10.626s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/package.dsv
+[10.645s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/ament_index/resource_index/packages/nav2_core
+[10.664s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.684s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.703s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/cmake/nav2_coreConfig.cmake
+[10.722s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/cmake/nav2_coreConfig-version.cmake
+[10.741s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_core/share/nav2_core/package.xml
+[10.766s] Invoked command in '/home/matthew/nav2_ws/build/nav2_core' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_core

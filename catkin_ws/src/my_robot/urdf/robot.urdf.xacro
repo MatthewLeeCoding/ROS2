@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find my_robot_description)/urdf/lidar.xacro" />
+
+  <!-- Now you can use the lidar in your robot description -->
+  <xacro:property name="lidar_name" value="my_lidar" />
+  <xacro:property name="lidar_frame" value="laser_link" />
+
+  <!-- Other robot description parts (body, wheels, etc.) -->
+</robot>
+

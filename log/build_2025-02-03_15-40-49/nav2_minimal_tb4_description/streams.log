@@ -1,0 +1,65 @@
+[0.105s] Invoking command in '/home/matthew/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/nav2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description -DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav2_minimal_tb4_description
+[0.175s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.578s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.608s] -- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+[0.768s] -- Found xacro: 2.0.11 (/opt/ros/iron/share/xacro/cmake)
+[0.785s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.087s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.101s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.102s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.104s] -- Added test 'lint_cmake' to check CMake code style
+[1.106s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.111s] -- Added test 'xmllint' to check XML markup files
+[1.115s] -- Configuring done
+[1.136s] -- Generating done
+[1.142s] -- Build files have been written to: /home/matthew/build/nav2_minimal_tb4_description
+[1.182s] Invoked command in '/home/matthew/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/nav2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description -DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav2_minimal_tb4_description
+[1.183s] Invoking command in '/home/matthew/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/build/nav2_minimal_tb4_description -- -j6 -l6
+[1.267s] Invoked command in '/home/matthew/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/build/nav2_minimal_tb4_description -- -j6 -l6
+[1.270s] Invoking command in '/home/matthew/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/build/nav2_minimal_tb4_description
+[1.286s] -- Install configuration: ""
+[1.287s] -- Execute custom install script
+[1.288s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/tb4_description.dsv
+[1.309s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/launch/robot_description.launch.py
+[1.365s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/body_visual.dae
+[1.383s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_collision.dae
+[1.403s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_visual.dae
+[1.438s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/camera_bracket.dae
+[1.458s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/oakd_pro.dae
+[1.476s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/rplidar.dae
+[1.494s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell.dae
+[1.512s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell_collision.dae
+[1.531s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower.dae
+[1.549s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_sensor_plate.dae
+[1.597s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_standoff.dae
+[1.630s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/weight_block.dae
+[1.662s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/bumper.urdf.xacro
+[1.719s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/caster.urdf.xacro
+[1.739s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/common_properties.urdf.xacro
+[1.758s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/create3.urdf.xacro
+[1.777s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/sensors/imu.urdf.xacro
+[1.816s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/wheel.urdf.xacro
+[1.848s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/camera_bracket.urdf.xacro
+[1.863s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/oakd.urdf.xacro
+[1.880s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/rplidar.urdf.xacro
+[1.898s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[1.914s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_standoff.urdf.xacro
+[1.931s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/turtlebot4.urdf.xacro
+[1.946s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/weight_block.urdf.xacro
+[1.963s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/rviz/config.rviz
+[1.979s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb4_description
+[1.997s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb4_description
+[2.014s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.sh
+[2.031s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.dsv
+[2.049s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.sh
+[2.067s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.dsv
+[2.085s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.bash
+[2.105s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.sh
+[2.121s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.zsh
+[2.138s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.dsv
+[2.155s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.dsv
+[2.173s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/ament_index/resource_index/packages/nav2_minimal_tb4_description
+[2.192s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig.cmake
+[2.215s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig-version.cmake
+[2.235s] -- Symlinking: /home/matthew/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.xml
+[2.266s] Invoked command in '/home/matthew/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/build/nav2_minimal_tb4_description

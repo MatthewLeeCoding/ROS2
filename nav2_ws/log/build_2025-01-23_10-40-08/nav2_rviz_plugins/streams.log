@@ -1,0 +1,128 @@
+[0.082s] Invoking command in '/home/matthew/nav2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/nav2_ws/install/nav2_rviz_plugins
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.515s] -- The CXX compiler identification is GNU 11.4.0
+[0.532s] -- Detecting C compiler ABI info
+[0.681s] -- Detecting C compiler ABI info - done
+[0.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.695s] -- Detecting C compile features
+[0.695s] -- Detecting C compile features - done
+[0.703s] -- Detecting CXX compiler ABI info
+[0.875s] -- Detecting CXX compiler ABI info - done
+[0.888s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.889s] -- Detecting CXX compile features
+[0.890s] -- Detecting CXX compile features - done
+[0.903s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.314s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.616s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.747s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.781s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.845s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.144s] -- Found nav2_util: 1.2.10 (/home/matthew/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[4.267s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[4.277s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.563s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.634s] -- Found FastRTPS: /opt/ros/iron/include  
+[4.736s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.872s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[5.873s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.874s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.462s] -- Found nav2_lifecycle_manager: 1.2.10 (/home/matthew/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[8.163s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[8.291s] -- Found rviz_common: 12.4.10 (/opt/ros/iron/share/rviz_common/cmake)
+[8.311s] -- Setting assimp_DIR to: '/opt/ros/iron/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[8.333s] -- Setting OGRE_DIR to: '/opt/ros/iron/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[8.339s] -- Found OGRE
+[8.339s] --   static     : OFF
+[8.339s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[8.339s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.339s] --   media      : /opt/ros/iron/opt/rviz_ogre_vendor/share/OGRE/Media
+[8.339s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[8.339s] -- OGRE_LIBRARY_DIRS: /opt/ros/iron/opt/rviz_ogre_vendor/lib
+[8.340s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.340s] -- OGRE_PLUGIN_DIR: /opt/ros/iron/opt/rviz_ogre_vendor/lib/OGRE
+[8.340s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.340s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.340s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.340s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.394s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[8.410s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[8.623s] -- Found X11: /usr/include   
+[8.623s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[8.774s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[8.783s] -- Looking for gethostbyname
+[8.911s] -- Looking for gethostbyname - found
+[8.911s] -- Looking for connect
+[9.044s] -- Looking for connect - found
+[9.044s] -- Looking for remove
+[9.175s] -- Looking for remove - found
+[9.176s] -- Looking for shmat
+[9.311s] -- Looking for shmat - found
+[9.312s] -- Looking for IceConnectionNumber in ICE
+[9.449s] -- Looking for IceConnectionNumber in ICE - found
+[9.614s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[10.015s] -- Found rviz_default_plugins: 12.4.10 (/opt/ros/iron/share/rviz_default_plugins/cmake)
+[16.159s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[16.360s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.365s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.366s] -- Configured cppcheck include dirs: /home/matthew/nav2_ws/src/navigation2/nav2_rviz_plugins/include
+[16.366s] -- Configured cppcheck exclude dirs and/or files: 
+[16.369s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.369s] -- Configured cpplint exclude dirs and/or files: 
+[16.371s] -- Added test 'lint_cmake' to check CMake code style
+[16.375s] -- Added test 'uncrustify' to check C / C++ code style
+[16.375s] -- Configured uncrustify additional arguments: 
+[16.376s] -- Added test 'xmllint' to check XML markup files
+[16.386s] -- Configuring done
+[16.584s] -- Generating done
+[16.600s] -- Build files have been written to: /home/matthew/nav2_ws/build/nav2_rviz_plugins
+[16.644s] Invoked command in '/home/matthew/nav2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/nav2_ws/install/nav2_rviz_plugins
+[16.647s] Invoking command in '/home/matthew/nav2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_rviz_plugins -- -j6 -l6
+[16.764s] [ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[19.422s] [ 14%] Built target nav2_rviz_plugins_autogen
+[19.467s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[54.283s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[54.284s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[54.284s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o[0m
+[54.284s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o[0m
+[120.271s] [100%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[140.111s] [100%] Built target nav2_rviz_plugins
+[140.138s] Invoked command in '/home/matthew/nav2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_rviz_plugins -- -j6 -l6
+[140.144s] Invoking command in '/home/matthew/nav2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_rviz_plugins
+[140.162s] -- Install configuration: ""
+[140.163s] -- Execute custom install script
+[140.164s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins//plugins_description.xml
+[140.184s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[140.201s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[140.219s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[140.237s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[140.255s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+[140.273s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+[140.291s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[140.308s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[140.328s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[140.348s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[140.366s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[140.384s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[140.402s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[140.419s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[140.440s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[140.458s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[140.477s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[140.496s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[140.513s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[140.534s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[140.553s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[140.572s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[140.591s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[140.610s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[140.630s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[140.650s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[140.668s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[140.686s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[140.704s] -- Installing: /home/matthew/nav2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[140.745s] -- Set runtime path of "/home/matthew/nav2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[140.746s] -- Installing: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[140.746s] -- Installing: /home/matthew/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[140.752s] Invoked command in '/home/matthew/nav2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_rviz_plugins

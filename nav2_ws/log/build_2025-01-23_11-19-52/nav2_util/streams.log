@@ -1,0 +1,77 @@
+[0.029s] Invoking command in '/home/matthew/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_util -- -j6 -l6
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target nav2_util_core[0m
+[0.171s] [ 10%] Built target gtest
+[0.171s] [ 10%] Built target gtest_main
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target test_execution_timer[0m
+[0.231s] [ 15%] Built target test_execution_timer
+[0.233s] [ 40%] Built target nav2_util_core
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target test_service_client[0m
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_bringup[0m
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_utils[0m
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target test_node_utils[0m
+[0.278s] [35m[1mConsolidate compiler generated dependencies of target test_actions[0m
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target test_string_utils[0m
+[0.307s] [ 50%] Built target test_lifecycle_utils
+[0.308s] [ 47%] Built target lifecycle_bringup
+[0.316s] [ 55%] Built target test_node_utils
+[0.322s] [ 60%] Built target test_service_client
+[0.326s] [ 65%] Built target test_actions
+[0.334s] [ 70%] Built target test_string_utils
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_node[0m
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_cli_node[0m
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target test_geometry_utils[0m
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target test_robot_utils[0m
+[0.363s] [35m[1mConsolidate compiler generated dependencies of target test_odometry_utils[0m
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target test_validation_messages[0m
+[0.390s] [ 77%] Built target test_lifecycle_node
+[0.390s] [ 80%] Built target test_lifecycle_cli_node
+[0.396s] [ 85%] Built target test_robot_utils
+[0.398s] [ 90%] Built target test_geometry_utils
+[0.407s] [ 95%] Built target test_validation_messages
+[0.409s] [100%] Built target test_odometry_utils
+[0.636s] Invoked command in '/home/matthew/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_util -- -j6 -l6
+[0.641s] Invoking command in '/home/matthew/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_util
+[0.662s] -- Install configuration: "Release"
+[0.663s] -- Execute custom install script
+[0.664s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/lib/libnav2_util_core.so
+[0.665s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[0.666s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[0.667s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[0.667s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[0.668s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[0.668s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[0.668s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[0.669s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[0.669s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[0.669s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[0.670s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[0.670s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[0.670s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[0.671s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[0.671s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[0.672s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[0.672s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[0.673s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/include//nav2_util/validate_messages.hpp
+[0.673s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[0.674s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[0.675s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[0.675s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[0.676s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[0.676s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[0.677s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[0.677s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[0.678s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[0.678s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[0.678s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[0.679s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[0.679s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/package.dsv
+[0.699s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[0.699s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.700s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[0.700s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.700s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[0.701s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[0.701s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_util/share/nav2_util/package.xml
+[0.709s] Invoked command in '/home/matthew/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_util

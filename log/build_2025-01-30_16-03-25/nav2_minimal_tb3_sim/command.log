@@ -1,0 +1,1 @@
+Invoking command in '/home/matthew/build/nav2_minimal_tb3_sim': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/nav2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav2_minimal_tb3_sim

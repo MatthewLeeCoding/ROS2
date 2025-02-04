@@ -1,0 +1,60 @@
+[0.073s] Invoking command in '/home/matthew/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav2_common
+[0.188s] -- Found ament_cmake_core: 2.0.7 (/opt/ros/iron/share/ament_cmake_core/cmake)
+[0.555s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.564s] -- Found ament_cmake_python: 2.0.7 (/opt/ros/iron/share/ament_cmake_python/cmake)
+[0.968s] -- Configuring done
+[1.050s] -- Generating done
+[1.057s] -- Build files have been written to: /home/matthew/build/nav2_common
+[1.066s] Invoked command in '/home/matthew/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav2_common
+[1.067s] Invoking command in '/home/matthew/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/build/nav2_common -- -j6 -l6
+[1.194s] Built target ament_cmake_python_symlink_nav2_common
+[1.751s] running egg_info
+[1.753s] creating nav2_common.egg-info
+[1.754s] writing nav2_common.egg-info/PKG-INFO
+[1.755s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.756s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.757s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.763s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.765s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.873s] Built target ament_cmake_python_build_nav2_common_egg
+[2.127s] Invoked command in '/home/matthew/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/build/nav2_common -- -j6 -l6
+[2.133s] Invoking command in '/home/matthew/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/build/nav2_common
+[2.146s] -- Install configuration: ""
+[2.147s] -- Execute custom install script
+[2.150s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[2.169s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[2.201s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/PKG-INFO
+[2.219s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/SOURCES.txt
+[2.236s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/dependency_links.txt
+[2.253s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common-1.2.10-py3.10.egg-info/top_level.txt
+[2.271s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/__init__.py
+[2.289s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/__init__.py
+[2.307s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/has_node_params.py
+[2.325s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/parse_multirobot_pose.py
+[2.348s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/replace_string.py
+[2.377s] -- Symlinking: /home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/rewritten_yaml.py
+[2.389s] -- Symlinking: /home/matthew/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[2.406s] -- Symlinking: /home/matthew/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[2.426s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[2.443s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[2.462s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/path.sh
+[2.482s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/environment/path.dsv
+[2.509s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/local_setup.bash
+[2.533s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/local_setup.sh
+[2.552s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/local_setup.zsh
+[2.570s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/local_setup.dsv
+[2.585s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/package.dsv
+[2.601s] -- Symlinking: /home/matthew/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[2.618s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[2.634s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[2.650s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[2.667s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/package.xml
+[2.690s] -- Symlinking: /home/matthew/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[2.811s] Listing '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common'...
+[2.811s] Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/__init__.py'...
+[2.812s] Listing '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch'...
+[2.812s] Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/__init__.py'...
+[2.812s] Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/has_node_params.py'...
+[2.812s] Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/parse_multirobot_pose.py'...
+[2.812s] Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/replace_string.py'...
+[2.812s] Compiling '/home/matthew/install/nav2_common/lib/python3.10/site-packages/nav2_common/launch/rewritten_yaml.py'...

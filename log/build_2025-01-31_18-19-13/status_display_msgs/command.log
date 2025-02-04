@@ -1,0 +1,6 @@
+Invoking command in '/home/matthew/build/status_display_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/status_display_msgs -DCMAKE_INSTALL_PREFIX=/home/matthew/install/status_display_msgs
+Invoked command in '/home/matthew/build/status_display_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/ros2_ws/src/status_display_msgs -DCMAKE_INSTALL_PREFIX=/home/matthew/install/status_display_msgs
+Invoking command in '/home/matthew/build/status_display_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/build/status_display_msgs -- -j6 -l6
+Invoked command in '/home/matthew/build/status_display_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matthew/build/status_display_msgs -- -j6 -l6
+Invoking command in '/home/matthew/build/status_display_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/build/status_display_msgs
+Invoked command in '/home/matthew/build/status_display_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/matthew/build/status_display_msgs

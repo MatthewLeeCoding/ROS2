@@ -1,0 +1,49 @@
+[0.046s] Invoking command in '/home/matthew/nav2_ws/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_minimal_tb4_description -- -j6 -l6
+[0.131s] Invoked command in '/home/matthew/nav2_ws/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_minimal_tb4_description -- -j6 -l6
+[0.154s] Invoking command in '/home/matthew/nav2_ws/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_minimal_tb4_description
+[0.170s] -- Install configuration: ""
+[0.170s] -- Execute custom install script
+[0.171s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/tb4_description.dsv
+[0.172s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/launch/robot_description.launch.py
+[0.172s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/body_visual.dae
+[0.172s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_collision.dae
+[0.173s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_visual.dae
+[0.173s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/camera_bracket.dae
+[0.173s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/oakd_pro.dae
+[0.173s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/rplidar.dae
+[0.174s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell.dae
+[0.174s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell_collision.dae
+[0.174s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower.dae
+[0.174s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_sensor_plate.dae
+[0.174s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_standoff.dae
+[0.175s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/weight_block.dae
+[0.176s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/bumper.urdf.xacro
+[0.176s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/caster.urdf.xacro
+[0.177s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/common_properties.urdf.xacro
+[0.177s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/create3.urdf.xacro
+[0.177s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/sensors/imu.urdf.xacro
+[0.178s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/wheel.urdf.xacro
+[0.178s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/camera_bracket.urdf.xacro
+[0.178s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/oakd.urdf.xacro
+[0.178s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/rplidar.urdf.xacro
+[0.179s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[0.179s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_standoff.urdf.xacro
+[0.179s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/turtlebot4.urdf.xacro
+[0.179s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/weight_block.urdf.xacro
+[0.182s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/rviz/config.rviz
+[0.183s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb4_description
+[0.183s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb4_description
+[0.183s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.dsv
+[0.184s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.sh
+[0.184s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.dsv
+[0.185s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.bash
+[0.185s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.sh
+[0.190s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.zsh
+[0.190s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.dsv
+[0.190s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.dsv
+[0.207s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/packages/nav2_minimal_tb4_description
+[0.208s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig.cmake
+[0.208s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig-version.cmake
+[0.208s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.xml
+[0.221s] Invoked command in '/home/matthew/nav2_ws/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_minimal_tb4_description

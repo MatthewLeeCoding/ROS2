@@ -1,0 +1,41 @@
+[0.045s] Invoking command in '/home/matthew/nav2_ws/build/nav2_minimal_tb3_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_minimal_tb3_sim -- -j6 -l6
+[0.152s] Invoked command in '/home/matthew/nav2_ws/build/nav2_minimal_tb3_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_minimal_tb3_sim -- -j6 -l6
+[0.152s] Invoking command in '/home/matthew/nav2_ws/build/nav2_minimal_tb3_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_minimal_tb3_sim
+[0.168s] -- Install configuration: ""
+[0.169s] -- Execute custom install script
+[0.171s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_bridge.yaml
+[0.171s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_gps_bridge.yaml
+[0.175s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch/spawn_tb3.launch.py
+[0.176s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch/spawn_tb3_gps.launch.py
+[0.176s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds/tb3_empty_world.sdf.xacro
+[0.177s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds/tb3_sandbox.sdf.xacro
+[0.177s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/gz_waffle.sdf.xacro
+[0.177s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/gz_waffle_gps.sdf.xacro
+[0.177s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle.urdf
+[0.181s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle_gps.urdf
+[0.181s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/lds.dae
+[0.181s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/r200.dae
+[0.182s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/tire.dae
+[0.182s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/waffle_base.dae
+[0.182s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/model.config
+[0.183s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes/hexagon.dae
+[0.184s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes/wall.dae
+[0.184s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model-1_4.sdf
+[0.185s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model.config
+[0.185s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model.sdf
+[0.186s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb3_sim
+[0.186s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb3_sim
+[0.188s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/ament_prefix_path.sh
+[0.189s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/ament_prefix_path.dsv
+[0.189s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/path.sh
+[0.190s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/path.dsv
+[0.190s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.bash
+[0.192s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.sh
+[0.192s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.zsh
+[0.192s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.dsv
+[0.193s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.dsv
+[0.216s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/packages/nav2_minimal_tb3_sim
+[0.216s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake/nav2_minimal_tb3_simConfig.cmake
+[0.217s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake/nav2_minimal_tb3_simConfig-version.cmake
+[0.217s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.xml
+[0.276s] Invoked command in '/home/matthew/nav2_ws/build/nav2_minimal_tb3_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_minimal_tb3_sim

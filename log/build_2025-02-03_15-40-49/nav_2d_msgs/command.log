@@ -1,0 +1,1 @@
+Invoking command in '/home/matthew/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/matthew/install/nav_2d_msgs

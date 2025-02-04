@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "nav2_msgs/action/NavigateThroughPoses_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "nav2_msgs/action/NavigateThroughPoses_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "nav2_msgs/action/NavigateThroughPoses_Result",
+        "fields": [
+          {
+            "name": "error_code",
+            "type": {
+              "type_id": 5,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "nav2_msgs/action/NavigateThroughPoses_GetResult_Response",
+      "hash_string": "RIHS01_cc372355212e0a6882466b12f57024ca358f6dc90f2d341f108816db1a64c14d"
+    },
+    {
+      "type_name": "nav2_msgs/action/NavigateThroughPoses_Result",
+      "hash_string": "RIHS01_d6bad735f0f7edc38647465fab184f848d96b6c38e332d8e324c6555109573a3"
+    }
+  ]
+}

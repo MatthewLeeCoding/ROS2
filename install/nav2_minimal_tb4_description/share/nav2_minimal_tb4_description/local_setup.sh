@@ -1,0 +1,1 @@
+/home/matthew/build/nav2_minimal_tb4_description/ament_cmake_environment_hooks/local_setup.sh

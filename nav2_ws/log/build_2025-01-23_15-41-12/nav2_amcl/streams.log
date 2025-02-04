@@ -1,0 +1,54 @@
+[0.064s] Invoking command in '/home/matthew/nav2_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/install/csm:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_amcl -- -j6 -l6
+[0.251s] [ 20%] Built target map_lib
+[0.280s] [ 50%] Built target pf_lib
+[0.414s] [ 70%] Built target sensors_lib
+[0.433s] [ 83%] Built target motions_lib
+[0.565s] [ 91%] Built target amcl_core
+[0.725s] [100%] Built target amcl
+[0.782s] Invoked command in '/home/matthew/nav2_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/install/csm:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_amcl -- -j6 -l6
+[0.784s] Invoking command in '/home/matthew/nav2_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/install/csm:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_amcl
+[0.801s] -- Install configuration: "Release"
+[0.802s] -- Execute custom install script
+[0.803s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/lib/libpf_lib.so
+[0.803s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/lib/libmap_lib.so
+[0.804s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/lib/libmotions_lib.so
+[0.804s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/lib/libsensors_lib.so
+[0.806s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/lib/libamcl_core.so
+[0.806s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/lib/nav2_amcl/amcl
+[0.807s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[0.808s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[0.808s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[0.808s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp
+[0.808s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[0.808s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp
+[0.809s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[0.809s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[0.809s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[0.809s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[0.809s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[0.809s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp
+[0.810s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[0.811s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[0.811s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[0.824s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl//plugins.xml
+[0.824s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[0.825s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[0.825s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[0.825s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[0.825s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[0.825s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[0.825s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[0.825s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[0.825s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[0.826s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[0.826s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/package.dsv
+[0.850s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[0.851s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl
+[0.851s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl
+[0.853s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.853s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[0.853s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.853s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[0.853s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[0.853s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_amcl/share/nav2_amcl/package.xml
+[0.877s] Invoked command in '/home/matthew/nav2_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/home/matthew/ros2_ws/install/ros2_laser_scan_matcher:/home/matthew/ros2_ws/install/opennav_docking_core:/home/matthew/ros2_ws/install/my_robot_description:/home/matthew/ros2_ws/install/map_msgs:/home/matthew/ros2_ws/install/fake_odometry:/home/matthew/ros2_ws/install/dwb_msgs:/home/matthew/ros2_ws/install/csm:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_amcl

@@ -1,0 +1,95 @@
+[0.216s] Invoking command in '/home/matthew/nav2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_dwb_controller/costmap_queue -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/nav2_ws/install/costmap_queue
+[0.595s] -- The C compiler identification is GNU 11.4.0
+[0.726s] -- The CXX compiler identification is GNU 11.4.0
+[0.755s] -- Detecting C compiler ABI info
+[0.907s] -- Detecting C compiler ABI info - done
+[0.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.930s] -- Detecting C compile features
+[0.933s] -- Detecting C compile features - done
+[0.946s] -- Detecting CXX compiler ABI info
+[1.103s] -- Detecting CXX compiler ABI info - done
+[1.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.130s] -- Detecting CXX compile features
+[1.132s] -- Detecting CXX compile features - done
+[1.160s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.649s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.851s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.990s] -- Found nav2_common: 1.2.10 (/home/matthew/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[2.004s] -- Found nav2_costmap_2d: 1.2.10 (/home/matthew/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[2.171s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.207s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.901s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.907s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.118s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.174s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.268s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.965s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.965s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.046s] -- Setting build type to Release as none was specified.
+[10.068s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[10.519s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.548s] -- Looking for pthread.h
+[11.037s] -- Looking for pthread.h - found
+[11.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.505s] -- Found Threads: TRUE  
+[11.577s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.578s] -- Configured cppcheck include dirs: /home/matthew/nav2_ws/src/navigation2/nav2_dwb_controller/costmap_queue/include
+[11.578s] -- Configured cppcheck exclude dirs and/or files: 
+[11.597s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.597s] -- Configured cpplint exclude dirs and/or files: 
+[11.608s] -- Added test 'lint_cmake' to check CMake code style
+[11.619s] -- Added test 'uncrustify' to check C / C++ code style
+[11.619s] -- Configured uncrustify additional arguments: 
+[11.627s] -- Added test 'xmllint' to check XML markup files
+[11.651s] -- Configuring done
+[12.115s] -- Generating done
+[12.202s] -- Build files have been written to: /home/matthew/nav2_ws/build/costmap_queue
+[12.268s] Invoked command in '/home/matthew/nav2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_dwb_controller/costmap_queue -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/nav2_ws/install/costmap_queue
+[12.269s] Invoking command in '/home/matthew/nav2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/costmap_queue -- -j6 -l6
+[12.569s] [  9%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/costmap_queue.cpp.o[0m
+[16.432s] [ 18%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/limited_costmap_queue.cpp.o[0m
+[19.115s] [ 27%] [32m[1mLinking CXX shared library libcostmap_queue.so[0m
+[19.784s] [ 27%] Built target costmap_queue
+[19.913s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[41.290s] [ 45%] [32m[1mLinking CXX static library libgtest.a[0m
+[41.385s] [ 45%] Built target gtest
+[41.428s] [ 54%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[43.508s] [ 63%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[43.577s] [ 63%] Built target gtest_main
+[43.625s] [ 72%] [32mBuilding CXX object CMakeFiles/mbq_test.dir/test/mbq_test.cpp.o[0m
+[47.135s] [ 81%] [32m[1mLinking CXX executable mbq_test[0m
+[49.022s] [ 81%] Built target mbq_test
+[49.072s] [ 90%] [32mBuilding CXX object CMakeFiles/utest.dir/test/utest.cpp.o[0m
+[69.516s] [100%] [32m[1mLinking CXX executable utest[0m
+[71.139s] [100%] Built target utest
+[71.188s] Invoked command in '/home/matthew/nav2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/costmap_queue -- -j6 -l6
+[71.199s] Invoking command in '/home/matthew/nav2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/costmap_queue
+[71.230s] -- Install configuration: "Release"
+[71.241s] -- Execute custom install script
+[71.242s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/lib/libcostmap_queue.so
+[71.296s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/include//costmap_queue/costmap_queue.hpp
+[71.344s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/include//costmap_queue/limited_costmap_queue.hpp
+[71.407s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/include//costmap_queue/map_based_queue.hpp
+[71.466s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/environment/library_path.sh
+[71.490s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/environment/library_path.dsv
+[71.532s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/ament_index/resource_index/package_run_dependencies/costmap_queue
+[71.579s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/ament_index/resource_index/parent_prefix_path/costmap_queue
+[71.629s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.sh
+[71.681s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.dsv
+[71.726s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/environment/path.sh
+[71.784s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/environment/path.dsv
+[71.833s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/local_setup.bash
+[71.878s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/local_setup.sh
+[71.920s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/local_setup.zsh
+[71.965s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/local_setup.dsv
+[71.997s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/package.dsv
+[72.045s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/ament_index/resource_index/packages/costmap_queue
+[72.067s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_include_directories-extras.cmake
+[72.089s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_libraries-extras.cmake
+[72.111s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig.cmake
+[72.133s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig-version.cmake
+[72.156s] -- Symlinking: /home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/package.xml
+[72.187s] Invoked command in '/home/matthew/nav2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/costmap_queue

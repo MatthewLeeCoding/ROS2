@@ -1,0 +1,131 @@
+[0.553s] Invoking command in '/home/matthew/nav2_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/dwb_core/lib:/home/matthew/nav2_ws/install/costmap_queue/lib:/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav_2d_utils/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:/home/matthew/nav2_ws/install/dwb_msgs/lib:/home/matthew/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/dwb_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav_2d_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_critics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/nav2_ws/install/dwb_critics
+[57.442s] -- The C compiler identification is GNU 11.4.0
+[57.446s] -- The CXX compiler identification is GNU 11.4.0
+[57.446s] -- Detecting C compiler ABI info
+[57.446s] -- Detecting C compiler ABI info - done
+[57.446s] -- Check for working C compiler: /usr/bin/cc - skipped
+[57.446s] -- Detecting C compile features
+[57.447s] -- Detecting C compile features - done
+[57.447s] -- Detecting CXX compiler ABI info
+[57.447s] -- Detecting CXX compiler ABI info - done
+[57.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[57.447s] -- Detecting CXX compile features
+[57.447s] -- Detecting CXX compile features - done
+[57.447s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[57.447s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[57.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[57.448s] -- Found nav2_common: 1.2.10 (/home/matthew/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[57.448s] -- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)
+[57.448s] -- Found nav2_costmap_2d: 1.2.10 (/home/matthew/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[57.448s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[57.448s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[57.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[57.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[57.448s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[57.449s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[57.449s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[57.449s] -- Found FastRTPS: /opt/ros/iron/include  
+[57.449s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[57.449s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[57.449s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[57.449s] -- Found costmap_queue: 1.2.10 (/home/matthew/nav2_ws/install/costmap_queue/share/costmap_queue/cmake)
+[57.449s] -- Found dwb_core: 1.2.10 (/home/matthew/nav2_ws/install/dwb_core/share/dwb_core/cmake)
+[57.449s] -- Setting build type to Release as none was specified.
+[59.382s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[59.630s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[59.640s] -- Looking for pthread.h
+[60.051s] -- Looking for pthread.h - found
+[60.053s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[60.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[60.233s] -- Found Threads: TRUE  
+[60.271s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[60.271s] -- Configured cppcheck include dirs: /home/matthew/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_critics/include
+[60.272s] -- Configured cppcheck exclude dirs and/or files: 
+[60.276s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[60.277s] -- Configured cpplint exclude dirs and/or files: 
+[60.279s] -- Added test 'lint_cmake' to check CMake code style
+[60.284s] -- Added test 'uncrustify' to check C / C++ code style
+[60.284s] -- Configured uncrustify additional arguments: 
+[60.286s] -- Added test 'xmllint' to check XML markup files
+[60.295s] -- Configuring done
+[61.152s] -- Generating done
+[61.230s] -- Build files have been written to: /home/matthew/nav2_ws/build/dwb_critics
+[61.287s] Invoked command in '/home/matthew/nav2_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/dwb_core/lib:/home/matthew/nav2_ws/install/costmap_queue/lib:/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav_2d_utils/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:/home/matthew/nav2_ws/install/dwb_msgs/lib:/home/matthew/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/dwb_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav_2d_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matthew/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_critics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matthew/nav2_ws/install/dwb_critics
+[61.289s] Invoking command in '/home/matthew/nav2_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/dwb_core/lib:/home/matthew/nav2_ws/install/costmap_queue/lib:/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav_2d_utils/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:/home/matthew/nav2_ws/install/dwb_msgs/lib:/home/matthew/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/dwb_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav_2d_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/dwb_critics -- -j6 -l6
+[63.036s] [  3%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/alignment_util.cpp.o[0m
+[63.427s] [  7%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_dist.cpp.o[0m
+[78.369s] [ 11%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_align.cpp.o[0m
+[93.329s] [ 14%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_align.cpp.o[0m
+[108.755s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/base_obstacle.cpp.o[0m
+[125.561s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/obstacle_footprint.cpp.o[0m
+[141.496s] [ 25%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/oscillation.cpp.o[0m
+[157.685s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/prefer_forward.cpp.o[0m
+[173.257s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/rotate_to_goal.cpp.o[0m
+[188.974s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/twirling.cpp.o[0m
+[205.836s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_dist.cpp.o[0m
+[221.301s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/map_grid.cpp.o[0m
+[237.062s] [ 48%] [32m[1mLinking CXX shared library libdwb_critics.so[0m
+[238.137s] [ 48%] Built target dwb_critics
+[238.285s] [ 51%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[241.007s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[241.277s] [ 55%] Built target gtest_main
+[241.433s] [ 59%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[264.746s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[265.001s] [ 62%] Built target gtest
+[265.164s] [ 66%] [32mBuilding CXX object test/CMakeFiles/prefer_forward_tests.dir/prefer_forward_test.cpp.o[0m
+[286.646s] [ 70%] [32m[1mLinking CXX executable prefer_forward_tests[0m
+[287.875s] [ 70%] Built target prefer_forward_tests
+[287.933s] [ 74%] [32mBuilding CXX object test/CMakeFiles/twirling_tests.dir/twirling_test.cpp.o[0m
+[305.927s] [ 77%] [32m[1mLinking CXX executable twirling_tests[0m
+[307.105s] [ 77%] Built target twirling_tests
+[307.163s] [ 81%] [32mBuilding CXX object test/CMakeFiles/alignment_util_tests.dir/alignment_util_test.cpp.o[0m
+[318.711s] [ 85%] [32m[1mLinking CXX executable alignment_util_tests[0m
+[319.625s] [ 85%] Built target alignment_util_tests
+[319.685s] [ 88%] [32mBuilding CXX object test/CMakeFiles/base_obstacle_tests.dir/base_obstacle_test.cpp.o[0m
+[319.702s] [ 92%] [32mBuilding CXX object test/CMakeFiles/obstacle_footprint_tests.dir/obstacle_footprint_test.cpp.o[0m
+[341.615s] [ 96%] [32m[1mLinking CXX executable base_obstacle_tests[0m
+[342.985s] [ 96%] Built target base_obstacle_tests
+[344.210s] [100%] [32m[1mLinking CXX executable obstacle_footprint_tests[0m
+[345.420s] [100%] Built target obstacle_footprint_tests
+[345.450s] Invoked command in '/home/matthew/nav2_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/dwb_core/lib:/home/matthew/nav2_ws/install/costmap_queue/lib:/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav_2d_utils/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:/home/matthew/nav2_ws/install/dwb_msgs/lib:/home/matthew/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/dwb_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav_2d_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/dwb_critics -- -j6 -l6
+[345.459s] Invoking command in '/home/matthew/nav2_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/dwb_core/lib:/home/matthew/nav2_ws/install/costmap_queue/lib:/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav_2d_utils/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:/home/matthew/nav2_ws/install/dwb_msgs/lib:/home/matthew/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/dwb_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav_2d_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/dwb_critics
+[364.556s] -- Install configuration: "Release"
+[364.556s] -- Execute custom install script
+[364.556s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/lib/libdwb_critics.so
+[364.558s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/alignment_util.hpp
+[364.559s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/base_obstacle.hpp
+[364.560s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/goal_align.hpp
+[364.560s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/goal_dist.hpp
+[364.560s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/line_iterator.hpp
+[364.560s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/map_grid.hpp
+[364.561s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/obstacle_footprint.hpp
+[364.561s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/oscillation.hpp
+[364.561s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/path_align.hpp
+[364.562s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/path_dist.hpp
+[364.562s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/prefer_forward.hpp
+[364.562s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/rotate_to_goal.hpp
+[364.562s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/include//dwb_critics/twirling.hpp
+[364.563s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/default_critics.xml
+[364.563s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/environment/library_path.sh
+[364.563s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/environment/library_path.dsv
+[364.564s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics//default_critics.xml
+[364.565s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/ament_index/resource_index/package_run_dependencies/dwb_critics
+[364.565s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/ament_index/resource_index/parent_prefix_path/dwb_critics
+[364.566s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.sh
+[364.566s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.dsv
+[364.566s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/environment/path.sh
+[364.566s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/environment/path.dsv
+[364.567s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/local_setup.bash
+[364.568s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/local_setup.sh
+[364.568s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/local_setup.zsh
+[364.568s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/local_setup.dsv
+[364.569s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/package.dsv
+[364.569s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/ament_index/resource_index/packages/dwb_critics
+[364.569s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/ament_index/resource_index/dwb_core__pluginlib__plugin/dwb_critics
+[364.579s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_include_directories-extras.cmake
+[364.579s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_libraries-extras.cmake
+[364.579s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_dependencies-extras.cmake
+[364.579s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig.cmake
+[364.579s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig-version.cmake
+[364.580s] -- Symlinking: /home/matthew/nav2_ws/install/dwb_critics/share/dwb_critics/package.xml
+[364.580s] Invoked command in '/home/matthew/nav2_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/dwb_core:/home/matthew/nav2_ws/install/nav2_core:/home/matthew/nav2_ws/install/costmap_queue:/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav_2d_utils:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_behavior_tree:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/dwb_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/dwb_core/lib:/home/matthew/nav2_ws/install/costmap_queue/lib:/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav_2d_utils/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_behavior_tree/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:/home/matthew/nav2_ws/install/dwb_msgs/lib:/home/matthew/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/dwb_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav_2d_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/dwb_critics

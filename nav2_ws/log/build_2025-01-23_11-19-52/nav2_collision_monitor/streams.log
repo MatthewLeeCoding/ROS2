@@ -1,0 +1,67 @@
+[0.427s] Invoking command in '/home/matthew/nav2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_collision_monitor -- -j6 -l6
+[0.628s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.633s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.671s] [  5%] Built target gtest_main
+[0.683s] [ 11%] Built target gtest
+[0.687s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor_core[0m
+[0.691s] [35m[1mConsolidate compiler generated dependencies of target collision_detector_core[0m
+[0.779s] [ 36%] Built target collision_monitor_core
+[0.784s] [ 61%] Built target collision_detector_core
+[0.818s] [35m[1mConsolidate compiler generated dependencies of target sources_test[0m
+[0.819s] [35m[1mConsolidate compiler generated dependencies of target kinematics_test[0m
+[0.819s] [35m[1mConsolidate compiler generated dependencies of target collision_detector_node_test[0m
+[0.821s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor[0m
+[0.843s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor_node_test[0m
+[0.848s] [35m[1mConsolidate compiler generated dependencies of target polygons_test[0m
+[0.890s] [ 66%] Built target sources_test
+[0.898s] [ 72%] Built target collision_detector_node_test
+[0.911s] [ 77%] Built target kinematics_test
+[0.912s] [ 83%] Built target collision_monitor
+[0.914s] [ 88%] Built target polygons_test
+[0.936s] [ 94%] Built target collision_monitor_node_test
+[0.946s] [35m[1mConsolidate compiler generated dependencies of target collision_detector[0m
+[0.993s] [100%] Built target collision_detector
+[1.024s] Invoked command in '/home/matthew/nav2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matthew/nav2_ws/build/nav2_collision_monitor -- -j6 -l6
+[1.030s] Invoking command in '/home/matthew/nav2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_collision_monitor
+[1.045s] -- Install configuration: "Release"
+[1.047s] -- Execute custom install script
+[1.049s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[1.049s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/lib/libcollision_detector_core.so
+[1.051s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[1.052s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_detector
+[1.054s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[1.055s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_detector_node.hpp
+[1.055s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[1.056s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[1.056s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[1.057s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[1.057s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[1.058s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[1.058s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[1.059s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[1.061s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_detector_node.launch.py
+[1.061s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[1.063s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_detector_params.yaml
+[1.063s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[1.063s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[1.064s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[1.065s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[1.065s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[1.066s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[1.066s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[1.067s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[1.067s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[1.068s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[1.068s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[1.069s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[1.069s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[1.069s] -- Symlinking: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[1.090s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[1.091s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[1.092s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.092s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[1.093s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.094s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[1.094s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[1.095s] -- Up-to-date symlink: /home/matthew/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[1.104s] Invoked command in '/home/matthew/nav2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d:/home/matthew/nav2_ws/install/nav2_map_server:/home/matthew/nav2_ws/install/nav2_lifecycle_manager:/home/matthew/nav2_ws/install/nav2_util:/home/matthew/nav2_ws/install/nav2_voxel_grid:/home/matthew/nav2_ws/install/nav2_msgs:/home/matthew/nav2_ws/install/nav2_common:/opt/ros/iron LD_LIBRARY_PATH=/home/matthew/nav2_ws/install/nav2_costmap_2d/lib:/home/matthew/nav2_ws/install/nav2_map_server/lib:/home/matthew/nav2_ws/install/nav2_lifecycle_manager/lib:/home/matthew/nav2_ws/install/nav2_util/lib:/home/matthew/nav2_ws/install/nav2_voxel_grid/lib:/home/matthew/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matthew/nav2_ws/install/nav2_msgs/lib/python3.10/site-packages:/home/matthew/nav2_ws/install/nav2_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matthew/nav2_ws/build/nav2_collision_monitor

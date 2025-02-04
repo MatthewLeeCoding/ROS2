@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="lidar_sensor">
+
+    <!-- LIDAR sensor macro -->
+    <xacro:macro name="lidar_sensor" params="parent_link lidar_name xyz rpy">
+        <link name="${lidar_name}">
+            <visual>
+                <geometry>
+                    <cylinder length="0.1" radius="0.05"/>
+                </geometry>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+                <material name="silver"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <cylinder length="0.1" radius="0.05"/>
+                </geometry>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+            </collision>
+            <inertial>
+                <mass value="0.2"/>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+                <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+            </inertial>
+        </link>
+        
+        <gazebo reference="laser_frame">
+            <sensor name = "laser" type="ray">
+                <pose> 0 0 0 0 0 0 </pose>
+                <visualize>true</visualize>
+                <update_rate>10</update_rate>
+                <ray>
+                    <scan>
+                        <horizontal>
+                            <samples>360</samples>
+                            <min_angle>-3.14</min_angle>
+                            <max_angle>3.14</max_angle>
+                        </horizontal>
+                    </scan>
+                    </range>
+                        <min>0.3</min>
+                        <max>12</max>
+                    </range>
+                </ray>
+                <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
+                    <ros>
+                        <argument>~/out:=scan</argument>
+                    </ros>
+                    <output_type>sensor_msgs/LaserScan</output_type>
+                    <frame_name>laser_frame</frame_name>
+                </plugin>
+            </sensor>
+        </gazebo>
+
+        <joint name="${lidar_name}_joint" type="fixed">
+            <parent link="${parent_link}"/>
+            <child link="${lidar_name}"/>
+            <origin xyz="${xyz}" rpy="${rpy}"/>
+        </joint>
+    </xacro:macro>
+
+</robot>
+

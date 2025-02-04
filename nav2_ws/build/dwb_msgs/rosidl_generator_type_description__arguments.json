@@ -1,0 +1,23 @@
+{
+  "package_name": "dwb_msgs",
+  "output_dir": "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_generator_type_description/dwb_msgs",
+  "idl_tuples": [
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl",
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl",
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl",
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl",
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl",
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl",
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl",
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl",
+    "/home/matthew/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "nav_2d_msgs:/home/matthew/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs",
+    "nav_msgs:/opt/ros/iron/share/nav_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

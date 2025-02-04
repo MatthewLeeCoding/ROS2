@@ -1,0 +1,10 @@
+slam_toolbox:
+  ros_parameters:
+    use_sim_time: true
+    laser_scan_topic: /laser
+    map_file_name: ""
+    resolution: 0.05
+    mode: "mapping"
+    map_start_pose: [0.0, 0.0, 0.0]
+    publish_tf: true
+    transform_tolerance: 0.2
